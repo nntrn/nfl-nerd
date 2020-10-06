@@ -1,0 +1,5890 @@
+[
+  {
+    "date": "9/10/2020",
+    "time": "7:20:00 PM",
+    "name": "HOU @ KC",
+    "title": "Houston Texans at Kansas City Chiefs",
+    "awayGame": "HOU",
+    "homeGame": "KC",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "HOU": "0,17,7,10",
+      "KC": "7,0,0,13",
+      "total": "7,17,7,23"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220225",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220225",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220225",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220225"
+    }
+  },
+  {
+    "date": "9/13/2020",
+    "time": "12:00:00 PM",
+    "name": "SEA @ ATL",
+    "title": "Seattle Seahawks at Atlanta Falcons",
+    "awayGame": "SEA",
+    "homeGame": "ATL",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SEA": "3,9,0,13",
+      "ATL": "14,0,14,10",
+      "total": "17,9,14,23"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220313",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220313",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220313",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220313"
+    }
+  },
+  {
+    "date": "9/13/2020",
+    "time": "12:00:00 PM",
+    "name": "NYJ @ BUF",
+    "title": "New York Jets at Buffalo Bills",
+    "awayGame": "NYJ",
+    "homeGame": "BUF",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYJ": "14,7,0,6",
+      "BUF": "0,3,7,7",
+      "total": "14,10,7,13"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220116",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220116",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220116",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220116"
+    }
+  },
+  {
+    "date": "9/13/2020",
+    "time": "12:00:00 PM",
+    "name": "CHI @ DET",
+    "title": "Chicago Bears at Detroit Lions",
+    "awayGame": "CHI",
+    "homeGame": "DET",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CHI": "3,10,10,0",
+      "DET": "3,3,0,21",
+      "total": "6,13,10,21"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220282",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220282",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220282",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220282"
+    }
+  },
+  {
+    "date": "9/13/2020",
+    "time": "12:00:00 PM",
+    "name": "GB @ MIN",
+    "title": "Green Bay Packers at Minnesota Vikings",
+    "awayGame": "GB",
+    "homeGame": "MIN",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "GB": "7,3,0,24",
+      "MIN": "3,19,7,14",
+      "total": "10,22,7,38"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220300",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220300",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220300",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220300"
+    }
+  },
+  {
+    "date": "9/13/2020",
+    "time": "12:00:00 PM",
+    "name": "MIA @ NE",
+    "title": "Miami Dolphins at New England Patriots",
+    "awayGame": "MIA",
+    "homeGame": "NE",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIA": "0,7,7,7",
+      "NE": "0,3,0,8",
+      "total": "0,10,7,15"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220131",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220131",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220131",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220131"
+    }
+  },
+  {
+    "date": "9/13/2020",
+    "time": "12:00:00 PM",
+    "name": "PHI @ WSH",
+    "title": "Philadelphia Eagles at Washington ",
+    "awayGame": "PHI",
+    "homeGame": "WSH",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PHI": "0,7,7,13",
+      "WSH": "10,7,0,0",
+      "total": "10,14,7,13"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220268",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220268",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220268",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220268"
+    }
+  },
+  {
+    "date": "9/13/2020",
+    "time": "12:00:00 PM",
+    "name": "LV @ CAR",
+    "title": "Las Vegas Raiders at Carolina Panthers",
+    "awayGame": "LV",
+    "homeGame": "CAR",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LV": "9,6,0,15",
+      "CAR": "7,10,10,7",
+      "total": "16,16,10,22"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220370",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220370",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220370",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220370"
+    }
+  },
+  {
+    "date": "9/13/2020",
+    "time": "12:00:00 PM",
+    "name": "IND @ JAX",
+    "title": "Indianapolis Colts at Jacksonville Jaguars",
+    "awayGame": "IND",
+    "homeGame": "JAX",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "IND": "0,14,3,10",
+      "JAX": "7,10,0,3",
+      "total": "7,24,3,13"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220195",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220195",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220195",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220195"
+    }
+  },
+  {
+    "date": "9/13/2020",
+    "time": "12:00:00 PM",
+    "name": "CLE @ BAL",
+    "title": "Cleveland Browns at Baltimore Ravens",
+    "awayGame": "CLE",
+    "homeGame": "BAL",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CLE": "10,14,7,7",
+      "BAL": "6,0,0,0",
+      "total": "16,14,7,7"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220147",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220147",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220147",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220147"
+    }
+  },
+  {
+    "date": "9/13/2020",
+    "time": "3:05:00 PM",
+    "name": "LAC @ CIN",
+    "title": "Los Angeles Chargers at Cincinnati Bengals",
+    "awayGame": "LAC",
+    "homeGame": "CIN",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAC": "7,0,6,0",
+      "CIN": "0,6,0,10",
+      "total": "7,6,6,10"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220161",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220161",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220161",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220161"
+    }
+  },
+  {
+    "date": "9/13/2020",
+    "time": "3:25:00 PM",
+    "name": "TB @ NO",
+    "title": "Tampa Bay Buccaneers at New Orleans Saints",
+    "awayGame": "TB",
+    "homeGame": "NO",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TB": "0,17,7,10",
+      "NO": "7,0,10,6",
+      "total": "7,17,17,16"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220369",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220369",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220369",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220369"
+    }
+  },
+  {
+    "date": "9/13/2020",
+    "time": "3:25:00 PM",
+    "name": "ARI @ SF",
+    "title": "Arizona Cardinals at San Francisco 49ers",
+    "awayGame": "ARI",
+    "homeGame": "SF",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ARI": "10,3,0,7",
+      "SF": "7,3,0,14",
+      "total": "17,6,0,21"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220352",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220352",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220352",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220352"
+    }
+  },
+  {
+    "date": "9/13/2020",
+    "time": "7:20:00 PM",
+    "name": "DAL @ LAR",
+    "title": "Dallas Cowboys at Los Angeles Rams",
+    "awayGame": "DAL",
+    "homeGame": "LAR",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DAL": "7,6,7,0",
+      "LAR": "0,14,3,0",
+      "total": "7,20,10,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220347",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220347",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220347",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220347"
+    }
+  },
+  {
+    "date": "9/14/2020",
+    "time": "6:15:00 PM",
+    "name": "PIT @ NYG",
+    "title": "Pittsburgh Steelers at New York Giants",
+    "awayGame": "PIT",
+    "homeGame": "NYG",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PIT": "3,7,0,6",
+      "NYG": "3,13,0,10",
+      "total": "6,20,0,16"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220256",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220256",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220256",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220256"
+    }
+  },
+  {
+    "date": "9/14/2020",
+    "time": "9:10:00 PM",
+    "name": "TEN @ DEN",
+    "title": "Tennessee Titans at Denver Broncos",
+    "awayGame": "TEN",
+    "homeGame": "DEN",
+    "status": "STATUS_FINAL",
+    "week": 1,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TEN": "7,0,0,7",
+      "DEN": "0,7,0,9",
+      "total": "7,7,0,16"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220217",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220217",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220217",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220217"
+    }
+  },
+  {
+    "date": "9/17/2020",
+    "time": "7:20:00 PM",
+    "name": "CIN @ CLE",
+    "title": "Cincinnati Bengals at Cleveland Browns",
+    "awayGame": "CIN",
+    "homeGame": "CLE",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CIN": "7,14,7,7",
+      "CLE": "3,10,3,14",
+      "total": "10,24,10,21"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220163",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220163",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220163",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220163"
+    }
+  },
+  {
+    "date": "9/20/2020",
+    "time": "12:00:00 PM",
+    "name": "NYG @ CHI",
+    "title": "New York Giants at Chicago Bears",
+    "awayGame": "NYG",
+    "homeGame": "CHI",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYG": "10,7,0,0",
+      "CHI": "0,0,3,10",
+      "total": "10,7,3,10"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220281",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220281",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220281",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220281"
+    }
+  },
+  {
+    "date": "9/20/2020",
+    "time": "12:00:00 PM",
+    "name": "ATL @ DAL",
+    "title": "Atlanta Falcons at Dallas Cowboys",
+    "awayGame": "ATL",
+    "homeGame": "DAL",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ATL": "0,10,14,16",
+      "DAL": "20,9,0,10",
+      "total": "20,19,14,26"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220249",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220249",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220249",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220249"
+    }
+  },
+  {
+    "date": "9/20/2020",
+    "time": "12:00:00 PM",
+    "name": "DET @ GB",
+    "title": "Detroit Lions at Green Bay Packers",
+    "awayGame": "DET",
+    "homeGame": "GB",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DET": "3,14,17,8",
+      "GB": "14,0,0,7",
+      "total": "17,14,17,15"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220291",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220291",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220291",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220291"
+    }
+  },
+  {
+    "date": "9/20/2020",
+    "time": "12:00:00 PM",
+    "name": "JAX @ TEN",
+    "title": "Jacksonville Jaguars at Tennessee Titans",
+    "awayGame": "JAX",
+    "homeGame": "TEN",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "JAX": "14,10,6,3",
+      "TEN": "7,3,7,13",
+      "total": "21,13,13,16"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220204",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220204",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220204",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220204"
+    }
+  },
+  {
+    "date": "9/20/2020",
+    "time": "12:00:00 PM",
+    "name": "MIN @ IND",
+    "title": "Minnesota Vikings at Indianapolis Colts",
+    "awayGame": "MIN",
+    "homeGame": "IND",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIN": "0,15,3,10",
+      "IND": "3,0,0,8",
+      "total": "3,15,3,18"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220192",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220192",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220192",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220192"
+    }
+  },
+  {
+    "date": "9/20/2020",
+    "time": "12:00:00 PM",
+    "name": "BUF @ MIA",
+    "title": "Buffalo Bills at Miami Dolphins",
+    "awayGame": "BUF",
+    "homeGame": "MIA",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BUF": "7,3,3,15",
+      "MIA": "7,10,0,14",
+      "total": "14,13,3,29"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220122",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220122",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220122",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220122"
+    }
+  },
+  {
+    "date": "9/20/2020",
+    "time": "12:00:00 PM",
+    "name": "SF @ NYJ",
+    "title": "San Francisco 49ers at New York Jets",
+    "awayGame": "SF",
+    "homeGame": "NYJ",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SF": "3,0,3,7",
+      "NYJ": "7,14,3,7",
+      "total": "10,14,6,14"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220144",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220144",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220144",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220144"
+    }
+  },
+  {
+    "date": "9/20/2020",
+    "time": "12:00:00 PM",
+    "name": "LAR @ PHI",
+    "title": "Los Angeles Rams at Philadelphia Eagles",
+    "awayGame": "LAR",
+    "homeGame": "PHI",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAR": "3,13,0,3",
+      "PHI": "14,7,3,13",
+      "total": "17,20,3,16"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220261",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220261",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220261",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220261"
+    }
+  },
+  {
+    "date": "9/20/2020",
+    "time": "12:00:00 PM",
+    "name": "DEN @ PIT",
+    "title": "Denver Broncos at Pittsburgh Steelers",
+    "awayGame": "DEN",
+    "homeGame": "PIT",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DEN": "7,10,0,9",
+      "PIT": "0,3,11,7",
+      "total": "7,13,11,16"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220177",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220177",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220177",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220177"
+    }
+  },
+  {
+    "date": "9/20/2020",
+    "time": "12:00:00 PM",
+    "name": "CAR @ TB",
+    "title": "Carolina Panthers at Tampa Bay Buccaneers",
+    "awayGame": "CAR",
+    "homeGame": "TB",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CAR": "14,7,0,10",
+      "TB": "0,0,7,10",
+      "total": "14,7,7,20"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220329",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220329",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220329",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220329"
+    }
+  },
+  {
+    "date": "9/20/2020",
+    "time": "3:05:00 PM",
+    "name": "WSH @ ARI",
+    "title": "Washington  at Arizona Cardinals",
+    "awayGame": "WSH",
+    "homeGame": "ARI",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "WSH": "14,6,0,10",
+      "ARI": "0,0,3,12",
+      "total": "14,6,3,22"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220340",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220340",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220340",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220340"
+    }
+  },
+  {
+    "date": "9/20/2020",
+    "time": "3:25:00 PM",
+    "name": "KC @ LAC",
+    "title": "Kansas City Chiefs at Los Angeles Chargers",
+    "awayGame": "KC",
+    "homeGame": "LAC",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "KC": "7,7,3,3,0",
+      "LAC": "0,6,3,11,3",
+      "total": "7,13,6,14,3"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220235",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220235",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220235",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220235"
+    }
+  },
+  {
+    "date": "9/20/2020",
+    "time": "3:25:00 PM",
+    "name": "BAL @ HOU",
+    "title": "Baltimore Ravens at Houston Texans",
+    "awayGame": "BAL",
+    "homeGame": "HOU",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BAL": "0,10,0,6",
+      "HOU": "3,17,3,10",
+      "total": "3,27,3,16"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220181",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220181",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220181",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220181"
+    }
+  },
+  {
+    "date": "9/20/2020",
+    "time": "7:20:00 PM",
+    "name": "NE @ SEA",
+    "title": "New England Patriots at Seattle Seahawks",
+    "awayGame": "NE",
+    "homeGame": "SEA",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NE": "7,7,14,7",
+      "SEA": "7,7,3,13",
+      "total": "14,14,17,20"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220365",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220365",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220365",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220365"
+    }
+  },
+  {
+    "date": "9/21/2020",
+    "time": "7:15:00 PM",
+    "name": "NO @ LV",
+    "title": "New Orleans Saints at Las Vegas Raiders",
+    "awayGame": "NO",
+    "homeGame": "LV",
+    "status": "STATUS_FINAL",
+    "week": 2,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NO": "0,17,7,10",
+      "LV": "10,7,0,7",
+      "total": "10,24,7,17"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220231",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220231",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220231",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220231"
+    }
+  },
+  {
+    "date": "9/24/2020",
+    "time": "7:20:00 PM",
+    "name": "MIA @ JAX",
+    "title": "Miami Dolphins at Jacksonville Jaguars",
+    "awayGame": "MIA",
+    "homeGame": "JAX",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIA": "0,7,0,6",
+      "JAX": "14,7,7,3",
+      "total": "14,14,7,9"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220201",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220201",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220201",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220201"
+    }
+  },
+  {
+    "date": "9/27/2020",
+    "time": "12:00:00 PM",
+    "name": "CHI @ ATL",
+    "title": "Chicago Bears at Atlanta Falcons",
+    "awayGame": "CHI",
+    "homeGame": "ATL",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CHI": "6,10,10,0",
+      "ATL": "3,7,0,20",
+      "total": "9,17,10,20"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220309",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220309",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220309",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220309"
+    }
+  },
+  {
+    "date": "9/27/2020",
+    "time": "12:00:00 PM",
+    "name": "LAR @ BUF",
+    "title": "Los Angeles Rams at Buffalo Bills",
+    "awayGame": "LAR",
+    "homeGame": "BUF",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAR": "7,14,7,7",
+      "BUF": "0,3,14,15",
+      "total": "7,17,21,22"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220119",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220119",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220119",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220119"
+    }
+  },
+  {
+    "date": "9/27/2020",
+    "time": "12:00:00 PM",
+    "name": "WSH @ CLE",
+    "title": "Washington  at Cleveland Browns",
+    "awayGame": "WSH",
+    "homeGame": "CLE",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "WSH": "0,17,0,17",
+      "CLE": "7,0,13,0",
+      "total": "7,17,13,17"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220168",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220168",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220168",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220168"
+    }
+  },
+  {
+    "date": "9/27/2020",
+    "time": "12:00:00 PM",
+    "name": "TEN @ MIN",
+    "title": "Tennessee Titans at Minnesota Vikings",
+    "awayGame": "TEN",
+    "homeGame": "MIN",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TEN": "7,10,7,6",
+      "MIN": "6,3,16,6",
+      "total": "13,13,23,12"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220304",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220304",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220304",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220304"
+    }
+  },
+  {
+    "date": "9/27/2020",
+    "time": "12:00:00 PM",
+    "name": "LV @ NE",
+    "title": "Las Vegas Raiders at New England Patriots",
+    "awayGame": "LV",
+    "homeGame": "NE",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LV": "0,13,10,13",
+      "NE": "3,7,0,10",
+      "total": "3,20,10,23"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220134",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220134",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220134",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220134"
+    }
+  },
+  {
+    "date": "9/27/2020",
+    "time": "12:00:00 PM",
+    "name": "SF @ NYG",
+    "title": "San Francisco 49ers at New York Giants",
+    "awayGame": "SF",
+    "homeGame": "NYG",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SF": "0,6,3,0",
+      "NYG": "6,10,7,13",
+      "total": "6,16,10,13"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220254",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220254",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220254",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220254"
+    }
+  },
+  {
+    "date": "9/27/2020",
+    "time": "12:00:00 PM",
+    "name": "CIN @ PHI",
+    "title": "Cincinnati Bengals at Philadelphia Eagles",
+    "awayGame": "CIN",
+    "homeGame": "PHI",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CIN": "0,13,3,7,0",
+      "PHI": "0,10,7,6,0",
+      "total": "0,23,10,13,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220264",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220264",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220264",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220264"
+    }
+  },
+  {
+    "date": "9/27/2020",
+    "time": "12:00:00 PM",
+    "name": "HOU @ PIT",
+    "title": "Houston Texans at Pittsburgh Steelers",
+    "awayGame": "HOU",
+    "homeGame": "PIT",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "HOU": "3,14,3,8",
+      "PIT": "7,14,0,0",
+      "total": "10,28,3,8"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220173",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220173",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220173",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220173"
+    }
+  },
+  {
+    "date": "9/27/2020",
+    "time": "3:05:00 PM",
+    "name": "NYJ @ IND",
+    "title": "New York Jets at Indianapolis Colts",
+    "awayGame": "NYJ",
+    "homeGame": "IND",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYJ": "7,10,14,5",
+      "IND": "7,0,0,0",
+      "total": "14,10,14,5"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220193",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220193",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220193",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220193"
+    }
+  },
+  {
+    "date": "9/27/2020",
+    "time": "3:05:00 PM",
+    "name": "CAR @ LAC",
+    "title": "Carolina Panthers at Los Angeles Chargers",
+    "awayGame": "CAR",
+    "homeGame": "LAC",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CAR": "0,7,3,6",
+      "LAC": "6,12,0,3",
+      "total": "6,19,3,9"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220240",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220240",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220240",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220240"
+    }
+  },
+  {
+    "date": "9/27/2020",
+    "time": "3:25:00 PM",
+    "name": "TB @ DEN",
+    "title": "Tampa Bay Buccaneers at Denver Broncos",
+    "awayGame": "TB",
+    "homeGame": "DEN",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TB": "0,10,0,0",
+      "DEN": "10,13,5,0",
+      "total": "10,23,5,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220216",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220216",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220216",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220216"
+    }
+  },
+  {
+    "date": "9/27/2020",
+    "time": "3:25:00 PM",
+    "name": "DET @ ARI",
+    "title": "Detroit Lions at Arizona Cardinals",
+    "awayGame": "DET",
+    "homeGame": "ARI",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DET": "7,6,10,0",
+      "ARI": "3,14,3,6",
+      "total": "10,20,13,6"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220343",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220343",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220343",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220343"
+    }
+  },
+  {
+    "date": "9/27/2020",
+    "time": "3:25:00 PM",
+    "name": "DAL @ SEA",
+    "title": "Dallas Cowboys at Seattle Seahawks",
+    "awayGame": "DAL",
+    "homeGame": "SEA",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DAL": "9,14,7,8",
+      "SEA": "9,6,7,9",
+      "total": "18,20,14,17"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220363",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220363",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220363",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220363"
+    }
+  },
+  {
+    "date": "9/27/2020",
+    "time": "7:20:00 PM",
+    "name": "GB @ NO",
+    "title": "Green Bay Packers at New Orleans Saints",
+    "awayGame": "GB",
+    "homeGame": "NO",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "GB": "7,10,10,3",
+      "NO": "3,10,14,10",
+      "total": "10,20,24,13"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220323",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220323",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220323",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220323"
+    }
+  },
+  {
+    "date": "9/28/2020",
+    "time": "7:15:00 PM",
+    "name": "KC @ BAL",
+    "title": "Kansas City Chiefs at Baltimore Ravens",
+    "awayGame": "KC",
+    "homeGame": "BAL",
+    "status": "STATUS_FINAL",
+    "week": 3,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "KC": "3,7,3,7",
+      "BAL": "6,21,0,7",
+      "total": "9,28,3,14"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220153",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220153",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220153",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220153"
+    }
+  },
+  {
+    "date": "10/1/2020",
+    "time": "7:20:00 PM",
+    "name": "DEN @ NYJ",
+    "title": "Denver Broncos at New York Jets",
+    "awayGame": "DEN",
+    "homeGame": "NYJ",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DEN": "7,6,3,12",
+      "NYJ": "3,14,7,13",
+      "total": "10,20,10,25"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220141",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220141",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220141",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220141"
+    }
+  },
+  {
+    "date": "10/4/2020",
+    "time": "12:00:00 PM",
+    "name": "JAX @ CIN",
+    "title": "Jacksonville Jaguars at Cincinnati Bengals",
+    "awayGame": "JAX",
+    "homeGame": "CIN",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "JAX": "3,7,17,6",
+      "CIN": "7,6,0,12",
+      "total": "10,13,17,18"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220157",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220157",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220157",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220157"
+    }
+  },
+  {
+    "date": "10/4/2020",
+    "time": "12:00:00 PM",
+    "name": "CLE @ DAL",
+    "title": "Cleveland Browns at Dallas Cowboys",
+    "awayGame": "CLE",
+    "homeGame": "DAL",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CLE": "14,0,0,24",
+      "DAL": "7,24,10,8",
+      "total": "21,24,10,32"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220247",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220247",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220247",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220247"
+    }
+  },
+  {
+    "date": "10/4/2020",
+    "time": "12:00:00 PM",
+    "name": "NO @ DET",
+    "title": "New Orleans Saints at Detroit Lions",
+    "awayGame": "NO",
+    "homeGame": "DET",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NO": "14,0,7,8",
+      "DET": "7,21,7,0",
+      "total": "21,21,14,8"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220285",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220285",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220285",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220285"
+    }
+  },
+  {
+    "date": "10/4/2020",
+    "time": "12:00:00 PM",
+    "name": "SEA @ MIA",
+    "title": "Seattle Seahawks at Miami Dolphins",
+    "awayGame": "SEA",
+    "homeGame": "MIA",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SEA": "3,6,3,11",
+      "MIA": "10,7,0,14",
+      "total": "13,13,3,25"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220128",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220128",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220128",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220128"
+    }
+  },
+  {
+    "date": "10/4/2020",
+    "time": "12:00:00 PM",
+    "name": "LAC @ TB",
+    "title": "Los Angeles Chargers at Tampa Bay Buccaneers",
+    "awayGame": "LAC",
+    "homeGame": "TB",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAC": "7,7,14,10",
+      "TB": "14,10,7,0",
+      "total": "21,17,21,10"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220334",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220334",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220334",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220334"
+    }
+  },
+  {
+    "date": "10/4/2020",
+    "time": "12:00:00 PM",
+    "name": "BAL @ WSH",
+    "title": "Baltimore Ravens at Washington ",
+    "awayGame": "BAL",
+    "homeGame": "WSH",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BAL": "0,10,0,7",
+      "WSH": "7,14,7,3",
+      "total": "7,24,7,10"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220271",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220271",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220271",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220271"
+    }
+  },
+  {
+    "date": "10/4/2020",
+    "time": "12:00:00 PM",
+    "name": "ARI @ CAR",
+    "title": "Arizona Cardinals at Carolina Panthers",
+    "awayGame": "ARI",
+    "homeGame": "CAR",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ARI": "14,7,7,3",
+      "CAR": "0,7,7,7",
+      "total": "14,14,14,10"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220320",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220320",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220320",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220320"
+    }
+  },
+  {
+    "date": "10/4/2020",
+    "time": "12:00:00 PM",
+    "name": "MIN @ HOU",
+    "title": "Minnesota Vikings at Houston Texans",
+    "awayGame": "MIN",
+    "homeGame": "HOU",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIN": "0,6,10,7",
+      "HOU": "7,10,7,7",
+      "total": "7,16,17,14"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220184",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220184",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220184",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220184"
+    }
+  },
+  {
+    "date": "10/4/2020",
+    "time": "3:05:00 PM",
+    "name": "NYG @ LAR",
+    "title": "New York Giants at Los Angeles Rams",
+    "awayGame": "NYG",
+    "homeGame": "LAR",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYG": "7,3,0,7",
+      "LAR": "0,6,0,3",
+      "total": "7,9,0,10"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220348",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220348",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220348",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220348"
+    }
+  },
+  {
+    "date": "10/4/2020",
+    "time": "3:25:00 PM",
+    "name": "IND @ CHI",
+    "title": "Indianapolis Colts at Chicago Bears",
+    "awayGame": "IND",
+    "homeGame": "CHI",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "IND": "0,3,0,8",
+      "CHI": "7,6,3,3",
+      "total": "7,9,3,11"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220280",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220280",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220280",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220280"
+    }
+  },
+  {
+    "date": "10/4/2020",
+    "time": "3:25:00 PM",
+    "name": "BUF @ LV",
+    "title": "Buffalo Bills at Las Vegas Raiders",
+    "awayGame": "BUF",
+    "homeGame": "LV",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BUF": "3,10,3,7",
+      "LV": "7,10,0,13",
+      "total": "10,20,3,20"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220229",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220229",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220229",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220229"
+    }
+  },
+  {
+    "date": "10/4/2020",
+    "time": "7:20:00 PM",
+    "name": "PHI @ SF",
+    "title": "Philadelphia Eagles at San Francisco 49ers",
+    "awayGame": "PHI",
+    "homeGame": "SF",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PHI": "7,0,7,6",
+      "SF": "8,0,3,14",
+      "total": "15,0,10,20"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220355",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220355",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220355",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220355"
+    }
+  },
+  {
+    "date": "10/5/2020",
+    "time": "6:05:00 PM",
+    "name": "NE @ KC",
+    "title": "New England Patriots at Kansas City Chiefs",
+    "awayGame": "NE",
+    "homeGame": "KC",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NE": "6,0,7,13",
+      "KC": "0,3,0,7",
+      "total": "6,3,7,20"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220221",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220221",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220221",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220221"
+    }
+  },
+  {
+    "date": "10/5/2020",
+    "time": "8:00:00 PM",
+    "name": "ATL @ GB",
+    "title": "Atlanta Falcons at Green Bay Packers",
+    "awayGame": "ATL",
+    "homeGame": "GB",
+    "status": "STATUS_FINAL",
+    "week": 4,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ATL": "7,13,7,3",
+      "GB": "0,3,6,7",
+      "total": "7,16,13,10"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220293",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220293",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220293",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220293"
+    }
+  },
+  {
+    "date": "10/8/2020",
+    "time": "7:20:00 PM",
+    "name": "TB @ CHI",
+    "title": "Tampa Bay Buccaneers at Chicago Bears",
+    "awayGame": "TB",
+    "homeGame": "CHI",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TB": "0,0,0,0",
+      "CHI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220278",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220278",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220278",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220278"
+    }
+  },
+  {
+    "date": "10/11/2020",
+    "time": "12:00:00 PM",
+    "name": "CAR @ ATL",
+    "title": "Carolina Panthers at Atlanta Falcons",
+    "awayGame": "CAR",
+    "homeGame": "ATL",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CAR": "0,0,0,0",
+      "ATL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220306",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220306",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220306",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220306"
+    }
+  },
+  {
+    "date": "10/11/2020",
+    "time": "12:00:00 PM",
+    "name": "BUF @ TEN",
+    "title": "Buffalo Bills at Tennessee Titans",
+    "awayGame": "BUF",
+    "homeGame": "TEN",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BUF": "0,0,0,0",
+      "TEN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220209",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220209",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220209",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220209"
+    }
+  },
+  {
+    "date": "10/11/2020",
+    "time": "12:00:00 PM",
+    "name": "LV @ KC",
+    "title": "Las Vegas Raiders at Kansas City Chiefs",
+    "awayGame": "LV",
+    "homeGame": "KC",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LV": "0,0,0,0",
+      "KC": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220219",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220219",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220219",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220219"
+    }
+  },
+  {
+    "date": "10/11/2020",
+    "time": "12:00:00 PM",
+    "name": "ARI @ NYJ",
+    "title": "Arizona Cardinals at New York Jets",
+    "awayGame": "ARI",
+    "homeGame": "NYJ",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ARI": "0,0,0,0",
+      "NYJ": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220143",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220143",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220143",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220143"
+    }
+  },
+  {
+    "date": "10/11/2020",
+    "time": "12:00:00 PM",
+    "name": "PHI @ PIT",
+    "title": "Philadelphia Eagles at Pittsburgh Steelers",
+    "awayGame": "PHI",
+    "homeGame": "PIT",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PHI": "0,0,0,0",
+      "PIT": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220175",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220175",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220175",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220175"
+    }
+  },
+  {
+    "date": "10/11/2020",
+    "time": "12:00:00 PM",
+    "name": "LAR @ WSH",
+    "title": "Los Angeles Rams at Washington ",
+    "awayGame": "LAR",
+    "homeGame": "WSH",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAR": "0,0,0,0",
+      "WSH": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220269",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220269",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220269",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220269"
+    }
+  },
+  {
+    "date": "10/11/2020",
+    "time": "12:00:00 PM",
+    "name": "CIN @ BAL",
+    "title": "Cincinnati Bengals at Baltimore Ravens",
+    "awayGame": "CIN",
+    "homeGame": "BAL",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CIN": "0,0,0,0",
+      "BAL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220146",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220146",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220146",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220146"
+    }
+  },
+  {
+    "date": "10/11/2020",
+    "time": "12:00:00 PM",
+    "name": "JAX @ HOU",
+    "title": "Jacksonville Jaguars at Houston Texans",
+    "awayGame": "JAX",
+    "homeGame": "HOU",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "JAX": "0,0,0,0",
+      "HOU": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220179",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220179",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220179",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220179"
+    }
+  },
+  {
+    "date": "10/11/2020",
+    "time": "3:05:00 PM",
+    "name": "MIA @ SF",
+    "title": "Miami Dolphins at San Francisco 49ers",
+    "awayGame": "MIA",
+    "homeGame": "SF",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIA": "0,0,0,0",
+      "SF": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220358",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220358",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220358",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220358"
+    }
+  },
+  {
+    "date": "10/11/2020",
+    "time": "3:25:00 PM",
+    "name": "IND @ CLE",
+    "title": "Indianapolis Colts at Cleveland Browns",
+    "awayGame": "IND",
+    "homeGame": "CLE",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "IND": "0,0,0,0",
+      "CLE": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220166",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220166",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220166",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220166"
+    }
+  },
+  {
+    "date": "10/11/2020",
+    "time": "3:25:00 PM",
+    "name": "NYG @ DAL",
+    "title": "New York Giants at Dallas Cowboys",
+    "awayGame": "NYG",
+    "homeGame": "DAL",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYG": "0,0,0,0",
+      "DAL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220242",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220242",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220242",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220242"
+    }
+  },
+  {
+    "date": "10/11/2020",
+    "time": "3:25:00 PM",
+    "name": "DEN @ NE",
+    "title": "Denver Broncos at New England Patriots",
+    "awayGame": "DEN",
+    "homeGame": "NE",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DEN": "0,0,0,0",
+      "NE": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220133",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220133",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220133",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220133"
+    }
+  },
+  {
+    "date": "10/11/2020",
+    "time": "7:20:00 PM",
+    "name": "MIN @ SEA",
+    "title": "Minnesota Vikings at Seattle Seahawks",
+    "awayGame": "MIN",
+    "homeGame": "SEA",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIN": "0,0,0,0",
+      "SEA": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220367",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220367",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220367",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220367"
+    }
+  },
+  {
+    "date": "10/12/2020",
+    "time": "7:15:00 PM",
+    "name": "LAC @ NO",
+    "title": "Los Angeles Chargers at New Orleans Saints",
+    "awayGame": "LAC",
+    "homeGame": "NO",
+    "status": "STATUS_SCHEDULED",
+    "week": 5,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAC": "0,0,0,0",
+      "NO": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220326",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220326",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220326",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220326"
+    }
+  },
+  {
+    "date": "10/15/2020",
+    "time": "7:20:00 PM",
+    "name": "KC @ BUF",
+    "title": "Kansas City Chiefs at Buffalo Bills",
+    "awayGame": "KC",
+    "homeGame": "BUF",
+    "status": "STATUS_SCHEDULED",
+    "week": 6,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "KC": "0,0,0,0",
+      "BUF": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220117",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220117",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220117",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220117"
+    }
+  },
+  {
+    "date": "10/18/2020",
+    "time": "12:00:00 PM",
+    "name": "HOU @ TEN",
+    "title": "Houston Texans at Tennessee Titans",
+    "awayGame": "HOU",
+    "homeGame": "TEN",
+    "status": "STATUS_SCHEDULED",
+    "week": 6,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "HOU": "0,0,0,0",
+      "TEN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220202",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220202",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220202",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220202"
+    }
+  },
+  {
+    "date": "10/18/2020",
+    "time": "12:00:00 PM",
+    "name": "CIN @ IND",
+    "title": "Cincinnati Bengals at Indianapolis Colts",
+    "awayGame": "CIN",
+    "homeGame": "IND",
+    "status": "STATUS_SCHEDULED",
+    "week": 6,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CIN": "0,0,0,0",
+      "IND": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220190",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220190",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220190",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220190"
+    }
+  },
+  {
+    "date": "10/18/2020",
+    "time": "12:00:00 PM",
+    "name": "ATL @ MIN",
+    "title": "Atlanta Falcons at Minnesota Vikings",
+    "awayGame": "ATL",
+    "homeGame": "MIN",
+    "status": "STATUS_SCHEDULED",
+    "week": 6,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ATL": "0,0,0,0",
+      "MIN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220301",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220301",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220301",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220301"
+    }
+  },
+  {
+    "date": "10/18/2020",
+    "time": "12:00:00 PM",
+    "name": "WSH @ NYG",
+    "title": "Washington  at New York Giants",
+    "awayGame": "WSH",
+    "homeGame": "NYG",
+    "status": "STATUS_SCHEDULED",
+    "week": 6,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "WSH": "0,0,0,0",
+      "NYG": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220252",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220252",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220252",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220252"
+    }
+  },
+  {
+    "date": "10/18/2020",
+    "time": "12:00:00 PM",
+    "name": "BAL @ PHI",
+    "title": "Baltimore Ravens at Philadelphia Eagles",
+    "awayGame": "BAL",
+    "homeGame": "PHI",
+    "status": "STATUS_SCHEDULED",
+    "week": 6,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BAL": "0,0,0,0",
+      "PHI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220263",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220263",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220263",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220263"
+    }
+  },
+  {
+    "date": "10/18/2020",
+    "time": "12:00:00 PM",
+    "name": "CLE @ PIT",
+    "title": "Cleveland Browns at Pittsburgh Steelers",
+    "awayGame": "CLE",
+    "homeGame": "PIT",
+    "status": "STATUS_SCHEDULED",
+    "week": 6,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CLE": "0,0,0,0",
+      "PIT": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220172",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220172",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220172",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220172"
+    }
+  },
+  {
+    "date": "10/18/2020",
+    "time": "12:00:00 PM",
+    "name": "CHI @ CAR",
+    "title": "Chicago Bears at Carolina Panthers",
+    "awayGame": "CHI",
+    "homeGame": "CAR",
+    "status": "STATUS_SCHEDULED",
+    "week": 6,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CHI": "0,0,0,0",
+      "CAR": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220317",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220317",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220317",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220317"
+    }
+  },
+  {
+    "date": "10/18/2020",
+    "time": "12:00:00 PM",
+    "name": "DET @ JAX",
+    "title": "Detroit Lions at Jacksonville Jaguars",
+    "awayGame": "DET",
+    "homeGame": "JAX",
+    "status": "STATUS_SCHEDULED",
+    "week": 6,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DET": "0,0,0,0",
+      "JAX": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220200",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220200",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220200",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220200"
+    }
+  },
+  {
+    "date": "10/18/2020",
+    "time": "3:05:00 PM",
+    "name": "MIA @ DEN",
+    "title": "Miami Dolphins at Denver Broncos",
+    "awayGame": "MIA",
+    "homeGame": "DEN",
+    "status": "STATUS_SCHEDULED",
+    "week": 6,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIA": "0,0,0,0",
+      "DEN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220214",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220214",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220214",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220214"
+    }
+  },
+  {
+    "date": "10/18/2020",
+    "time": "3:05:00 PM",
+    "name": "NYJ @ LAC",
+    "title": "New York Jets at Los Angeles Chargers",
+    "awayGame": "NYJ",
+    "homeGame": "LAC",
+    "status": "STATUS_SCHEDULED",
+    "week": 6,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYJ": "0,0,0,0",
+      "LAC": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220238",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220238",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220238",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220238"
+    }
+  },
+  {
+    "date": "10/18/2020",
+    "time": "3:25:00 PM",
+    "name": "GB @ TB",
+    "title": "Green Bay Packers at Tampa Bay Buccaneers",
+    "awayGame": "GB",
+    "homeGame": "TB",
+    "status": "STATUS_SCHEDULED",
+    "week": 6,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "GB": "0,0,0,0",
+      "TB": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220331",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220331",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220331",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220331"
+    }
+  },
+  {
+    "date": "10/18/2020",
+    "time": "7:20:00 PM",
+    "name": "LAR @ SF",
+    "title": "Los Angeles Rams at San Francisco 49ers",
+    "awayGame": "LAR",
+    "homeGame": "SF",
+    "status": "STATUS_SCHEDULED",
+    "week": 6,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAR": "0,0,0,0",
+      "SF": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220353",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220353",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220353",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220353"
+    }
+  },
+  {
+    "date": "10/19/2020",
+    "time": "7:15:00 PM",
+    "name": "ARI @ DAL",
+    "title": "Arizona Cardinals at Dallas Cowboys",
+    "awayGame": "ARI",
+    "homeGame": "DAL",
+    "status": "STATUS_SCHEDULED",
+    "week": 6,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ARI": "0,0,0,0",
+      "DAL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220245",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220245",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220245",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220245"
+    }
+  },
+  {
+    "date": "10/22/2020",
+    "time": "7:20:00 PM",
+    "name": "NYG @ PHI",
+    "title": "New York Giants at Philadelphia Eagles",
+    "awayGame": "NYG",
+    "homeGame": "PHI",
+    "status": "STATUS_SCHEDULED",
+    "week": 7,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYG": "0,0,0,0",
+      "PHI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220259",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220259",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220259",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220259"
+    }
+  },
+  {
+    "date": "10/25/2020",
+    "time": "12:00:00 PM",
+    "name": "DET @ ATL",
+    "title": "Detroit Lions at Atlanta Falcons",
+    "awayGame": "DET",
+    "homeGame": "ATL",
+    "status": "STATUS_SCHEDULED",
+    "week": 7,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DET": "0,0,0,0",
+      "ATL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220310",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220310",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220310",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220310"
+    }
+  },
+  {
+    "date": "10/25/2020",
+    "time": "12:00:00 PM",
+    "name": "CLE @ CIN",
+    "title": "Cleveland Browns at Cincinnati Bengals",
+    "awayGame": "CLE",
+    "homeGame": "CIN",
+    "status": "STATUS_SCHEDULED",
+    "week": 7,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CLE": "0,0,0,0",
+      "CIN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220155",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220155",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220155",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220155"
+    }
+  },
+  {
+    "date": "10/25/2020",
+    "time": "12:00:00 PM",
+    "name": "PIT @ TEN",
+    "title": "Pittsburgh Steelers at Tennessee Titans",
+    "awayGame": "PIT",
+    "homeGame": "TEN",
+    "status": "STATUS_SCHEDULED",
+    "week": 7,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PIT": "0,0,0,0",
+      "TEN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401249063",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401249063",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401249063",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401249063"
+    }
+  },
+  {
+    "date": "10/25/2020",
+    "time": "12:00:00 PM",
+    "name": "LAC @ MIA",
+    "title": "Los Angeles Chargers at Miami Dolphins",
+    "awayGame": "LAC",
+    "homeGame": "MIA",
+    "status": "STATUS_SCHEDULED",
+    "week": 7,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAC": "0,0,0,0",
+      "MIA": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220126",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220126",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220126",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220126"
+    }
+  },
+  {
+    "date": "10/25/2020",
+    "time": "12:00:00 PM",
+    "name": "CAR @ NO",
+    "title": "Carolina Panthers at New Orleans Saints",
+    "awayGame": "CAR",
+    "homeGame": "NO",
+    "status": "STATUS_SCHEDULED",
+    "week": 7,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CAR": "0,0,0,0",
+      "NO": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220322",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220322",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220322",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220322"
+    }
+  },
+  {
+    "date": "10/25/2020",
+    "time": "12:00:00 PM",
+    "name": "BUF @ NYJ",
+    "title": "Buffalo Bills at New York Jets",
+    "awayGame": "BUF",
+    "homeGame": "NYJ",
+    "status": "STATUS_SCHEDULED",
+    "week": 7,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BUF": "0,0,0,0",
+      "NYJ": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220138",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220138",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220138",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220138"
+    }
+  },
+  {
+    "date": "10/25/2020",
+    "time": "12:00:00 PM",
+    "name": "DAL @ WSH",
+    "title": "Dallas Cowboys at Washington ",
+    "awayGame": "DAL",
+    "homeGame": "WSH",
+    "status": "STATUS_SCHEDULED",
+    "week": 7,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DAL": "0,0,0,0",
+      "WSH": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220266",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220266",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220266",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220266"
+    }
+  },
+  {
+    "date": "10/25/2020",
+    "time": "12:00:00 PM",
+    "name": "GB @ HOU",
+    "title": "Green Bay Packers at Houston Texans",
+    "awayGame": "GB",
+    "homeGame": "HOU",
+    "status": "STATUS_SCHEDULED",
+    "week": 7,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "GB": "0,0,0,0",
+      "HOU": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220183",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220183",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220183",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220183"
+    }
+  },
+  {
+    "date": "10/25/2020",
+    "time": "3:05:00 PM",
+    "name": "SEA @ ARI",
+    "title": "Seattle Seahawks at Arizona Cardinals",
+    "awayGame": "SEA",
+    "homeGame": "ARI",
+    "status": "STATUS_SCHEDULED",
+    "week": 7,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SEA": "0,0,0,0",
+      "ARI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220338",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220338",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220338",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220338"
+    }
+  },
+  {
+    "date": "10/25/2020",
+    "time": "3:25:00 PM",
+    "name": "KC @ DEN",
+    "title": "Kansas City Chiefs at Denver Broncos",
+    "awayGame": "KC",
+    "homeGame": "DEN",
+    "status": "STATUS_SCHEDULED",
+    "week": 7,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "KC": "0,0,0,0",
+      "DEN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220210",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220210",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220210",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220210"
+    }
+  },
+  {
+    "date": "10/25/2020",
+    "time": "3:25:00 PM",
+    "name": "SF @ NE",
+    "title": "San Francisco 49ers at New England Patriots",
+    "awayGame": "SF",
+    "homeGame": "NE",
+    "status": "STATUS_SCHEDULED",
+    "week": 7,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SF": "0,0,0,0",
+      "NE": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220136",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220136",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220136",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220136"
+    }
+  },
+  {
+    "date": "10/25/2020",
+    "time": "7:20:00 PM",
+    "name": "TB @ LV",
+    "title": "Tampa Bay Buccaneers at Las Vegas Raiders",
+    "awayGame": "TB",
+    "homeGame": "LV",
+    "status": "STATUS_SCHEDULED",
+    "week": 7,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TB": "0,0,0,0",
+      "LV": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220232",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220232",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220232",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220232"
+    }
+  },
+  {
+    "date": "10/26/2020",
+    "time": "7:15:00 PM",
+    "name": "CHI @ LAR",
+    "title": "Chicago Bears at Los Angeles Rams",
+    "awayGame": "CHI",
+    "homeGame": "LAR",
+    "status": "STATUS_SCHEDULED",
+    "week": 7,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CHI": "0,0,0,0",
+      "LAR": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220351",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220351",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220351",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220351"
+    }
+  },
+  {
+    "date": "10/29/2020",
+    "time": "7:20:00 PM",
+    "name": "ATL @ CAR",
+    "title": "Atlanta Falcons at Carolina Panthers",
+    "awayGame": "ATL",
+    "homeGame": "CAR",
+    "status": "STATUS_SCHEDULED",
+    "week": 8,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ATL": "0,0,0,0",
+      "CAR": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220314",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220314",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220314",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220314"
+    }
+  },
+  {
+    "date": "11/1/2020",
+    "time": "12:00:00 PM",
+    "name": "NE @ BUF",
+    "title": "New England Patriots at Buffalo Bills",
+    "awayGame": "NE",
+    "homeGame": "BUF",
+    "status": "STATUS_SCHEDULED",
+    "week": 8,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NE": "0,0,0,0",
+      "BUF": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220115",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220115",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220115",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220115"
+    }
+  },
+  {
+    "date": "11/1/2020",
+    "time": "12:00:00 PM",
+    "name": "TEN @ CIN",
+    "title": "Tennessee Titans at Cincinnati Bengals",
+    "awayGame": "TEN",
+    "homeGame": "CIN",
+    "status": "STATUS_SCHEDULED",
+    "week": 8,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TEN": "0,0,0,0",
+      "CIN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220158",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220158",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220158",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220158"
+    }
+  },
+  {
+    "date": "11/1/2020",
+    "time": "12:00:00 PM",
+    "name": "LV @ CLE",
+    "title": "Las Vegas Raiders at Cleveland Browns",
+    "awayGame": "LV",
+    "homeGame": "CLE",
+    "status": "STATUS_SCHEDULED",
+    "week": 8,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LV": "0,0,0,0",
+      "CLE": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220169",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220169",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220169",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220169"
+    }
+  },
+  {
+    "date": "11/1/2020",
+    "time": "12:00:00 PM",
+    "name": "IND @ DET",
+    "title": "Indianapolis Colts at Detroit Lions",
+    "awayGame": "IND",
+    "homeGame": "DET",
+    "status": "STATUS_SCHEDULED",
+    "week": 8,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "IND": "0,0,0,0",
+      "DET": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220288",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220288",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220288",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220288"
+    }
+  },
+  {
+    "date": "11/1/2020",
+    "time": "12:00:00 PM",
+    "name": "MIN @ GB",
+    "title": "Minnesota Vikings at Green Bay Packers",
+    "awayGame": "MIN",
+    "homeGame": "GB",
+    "status": "STATUS_SCHEDULED",
+    "week": 8,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIN": "0,0,0,0",
+      "GB": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220292",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220292",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220292",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220292"
+    }
+  },
+  {
+    "date": "11/1/2020",
+    "time": "12:00:00 PM",
+    "name": "NYJ @ KC",
+    "title": "New York Jets at Kansas City Chiefs",
+    "awayGame": "NYJ",
+    "homeGame": "KC",
+    "status": "STATUS_SCHEDULED",
+    "week": 8,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYJ": "0,0,0,0",
+      "KC": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220222",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220222",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220222",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220222"
+    }
+  },
+  {
+    "date": "11/1/2020",
+    "time": "12:00:00 PM",
+    "name": "LAR @ MIA",
+    "title": "Los Angeles Rams at Miami Dolphins",
+    "awayGame": "LAR",
+    "homeGame": "MIA",
+    "status": "STATUS_SCHEDULED",
+    "week": 8,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAR": "0,0,0,0",
+      "MIA": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220127",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220127",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220127",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220127"
+    }
+  },
+  {
+    "date": "11/1/2020",
+    "time": "12:00:00 PM",
+    "name": "PIT @ BAL",
+    "title": "Pittsburgh Steelers at Baltimore Ravens",
+    "awayGame": "PIT",
+    "homeGame": "BAL",
+    "status": "STATUS_SCHEDULED",
+    "week": 8,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PIT": "0,0,0,0",
+      "BAL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220148",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220148",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220148",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220148"
+    }
+  },
+  {
+    "date": "11/1/2020",
+    "time": "3:05:00 PM",
+    "name": "JAX @ LAC",
+    "title": "Jacksonville Jaguars at Los Angeles Chargers",
+    "awayGame": "JAX",
+    "homeGame": "LAC",
+    "status": "STATUS_SCHEDULED",
+    "week": 8,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "JAX": "0,0,0,0",
+      "LAC": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220241",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220241",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220241",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220241"
+    }
+  },
+  {
+    "date": "11/1/2020",
+    "time": "3:25:00 PM",
+    "name": "NO @ CHI",
+    "title": "New Orleans Saints at Chicago Bears",
+    "awayGame": "NO",
+    "homeGame": "CHI",
+    "status": "STATUS_SCHEDULED",
+    "week": 8,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NO": "0,0,0,0",
+      "CHI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220277",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220277",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220277",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220277"
+    }
+  },
+  {
+    "date": "11/1/2020",
+    "time": "3:25:00 PM",
+    "name": "SF @ SEA",
+    "title": "San Francisco 49ers at Seattle Seahawks",
+    "awayGame": "SF",
+    "homeGame": "SEA",
+    "status": "STATUS_SCHEDULED",
+    "week": 8,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SF": "0,0,0,0",
+      "SEA": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220361",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220361",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220361",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220361"
+    }
+  },
+  {
+    "date": "11/1/2020",
+    "time": "7:20:00 PM",
+    "name": "DAL @ PHI",
+    "title": "Dallas Cowboys at Philadelphia Eagles",
+    "awayGame": "DAL",
+    "homeGame": "PHI",
+    "status": "STATUS_SCHEDULED",
+    "week": 8,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DAL": "0,0,0,0",
+      "PHI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220258",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220258",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220258",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220258"
+    }
+  },
+  {
+    "date": "11/2/2020",
+    "time": "7:15:00 PM",
+    "name": "TB @ NYG",
+    "title": "Tampa Bay Buccaneers at New York Giants",
+    "awayGame": "TB",
+    "homeGame": "NYG",
+    "status": "STATUS_SCHEDULED",
+    "week": 8,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TB": "0,0,0,0",
+      "NYG": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220257",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220257",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220257",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220257"
+    }
+  },
+  {
+    "date": "11/5/2020",
+    "time": "7:20:00 PM",
+    "name": "GB @ SF",
+    "title": "Green Bay Packers at San Francisco 49ers",
+    "awayGame": "GB",
+    "homeGame": "SF",
+    "status": "STATUS_SCHEDULED",
+    "week": 9,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "GB": "0,0,0,0",
+      "SF": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220359",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220359",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220359",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220359"
+    }
+  },
+  {
+    "date": "11/8/2020",
+    "time": "12:00:00 PM",
+    "name": "DEN @ ATL",
+    "title": "Denver Broncos at Atlanta Falcons",
+    "awayGame": "DEN",
+    "homeGame": "ATL",
+    "status": "STATUS_SCHEDULED",
+    "week": 9,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DEN": "0,0,0,0",
+      "ATL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220311",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220311",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220311",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220311"
+    }
+  },
+  {
+    "date": "11/8/2020",
+    "time": "12:00:00 PM",
+    "name": "SEA @ BUF",
+    "title": "Seattle Seahawks at Buffalo Bills",
+    "awayGame": "SEA",
+    "homeGame": "BUF",
+    "status": "STATUS_SCHEDULED",
+    "week": 9,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SEA": "0,0,0,0",
+      "BUF": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220120",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220120",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220120",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220120"
+    }
+  },
+  {
+    "date": "11/8/2020",
+    "time": "12:00:00 PM",
+    "name": "CHI @ TEN",
+    "title": "Chicago Bears at Tennessee Titans",
+    "awayGame": "CHI",
+    "homeGame": "TEN",
+    "status": "STATUS_SCHEDULED",
+    "week": 9,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CHI": "0,0,0,0",
+      "TEN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220207",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220207",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220207",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220207"
+    }
+  },
+  {
+    "date": "11/8/2020",
+    "time": "12:00:00 PM",
+    "name": "BAL @ IND",
+    "title": "Baltimore Ravens at Indianapolis Colts",
+    "awayGame": "BAL",
+    "homeGame": "IND",
+    "status": "STATUS_SCHEDULED",
+    "week": 9,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BAL": "0,0,0,0",
+      "IND": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220189",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220189",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220189",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220189"
+    }
+  },
+  {
+    "date": "11/8/2020",
+    "time": "12:00:00 PM",
+    "name": "CAR @ KC",
+    "title": "Carolina Panthers at Kansas City Chiefs",
+    "awayGame": "CAR",
+    "homeGame": "KC",
+    "status": "STATUS_SCHEDULED",
+    "week": 9,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CAR": "0,0,0,0",
+      "KC": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220224",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220224",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220224",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220224"
+    }
+  },
+  {
+    "date": "11/8/2020",
+    "time": "12:00:00 PM",
+    "name": "DET @ MIN",
+    "title": "Detroit Lions at Minnesota Vikings",
+    "awayGame": "DET",
+    "homeGame": "MIN",
+    "status": "STATUS_SCHEDULED",
+    "week": 9,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DET": "0,0,0,0",
+      "MIN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220299",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220299",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220299",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220299"
+    }
+  },
+  {
+    "date": "11/8/2020",
+    "time": "12:00:00 PM",
+    "name": "NYG @ WSH",
+    "title": "New York Giants at Washington ",
+    "awayGame": "NYG",
+    "homeGame": "WSH",
+    "status": "STATUS_SCHEDULED",
+    "week": 9,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYG": "0,0,0,0",
+      "WSH": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220267",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220267",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220267",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220267"
+    }
+  },
+  {
+    "date": "11/8/2020",
+    "time": "12:00:00 PM",
+    "name": "HOU @ JAX",
+    "title": "Houston Texans at Jacksonville Jaguars",
+    "awayGame": "HOU",
+    "homeGame": "JAX",
+    "status": "STATUS_SCHEDULED",
+    "week": 9,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "HOU": "0,0,0,0",
+      "JAX": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220194",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220194",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220194",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220194"
+    }
+  },
+  {
+    "date": "11/8/2020",
+    "time": "3:05:00 PM",
+    "name": "LV @ LAC",
+    "title": "Las Vegas Raiders at Los Angeles Chargers",
+    "awayGame": "LV",
+    "homeGame": "LAC",
+    "status": "STATUS_SCHEDULED",
+    "week": 9,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LV": "0,0,0,0",
+      "LAC": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220236",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220236",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220236",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220236"
+    }
+  },
+  {
+    "date": "11/8/2020",
+    "time": "3:25:00 PM",
+    "name": "PIT @ DAL",
+    "title": "Pittsburgh Steelers at Dallas Cowboys",
+    "awayGame": "PIT",
+    "homeGame": "DAL",
+    "status": "STATUS_SCHEDULED",
+    "week": 9,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PIT": "0,0,0,0",
+      "DAL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220248",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220248",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220248",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220248"
+    }
+  },
+  {
+    "date": "11/8/2020",
+    "time": "3:25:00 PM",
+    "name": "MIA @ ARI",
+    "title": "Miami Dolphins at Arizona Cardinals",
+    "awayGame": "MIA",
+    "homeGame": "ARI",
+    "status": "STATUS_SCHEDULED",
+    "week": 9,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIA": "0,0,0,0",
+      "ARI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220342",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220342",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220342",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220342"
+    }
+  },
+  {
+    "date": "11/8/2020",
+    "time": "7:20:00 PM",
+    "name": "NO @ TB",
+    "title": "New Orleans Saints at Tampa Bay Buccaneers",
+    "awayGame": "NO",
+    "homeGame": "TB",
+    "status": "STATUS_SCHEDULED",
+    "week": 9,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NO": "0,0,0,0",
+      "TB": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220330",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220330",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220330",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220330"
+    }
+  },
+  {
+    "date": "11/9/2020",
+    "time": "7:15:00 PM",
+    "name": "NE @ NYJ",
+    "title": "New England Patriots at New York Jets",
+    "awayGame": "NE",
+    "homeGame": "NYJ",
+    "status": "STATUS_SCHEDULED",
+    "week": 9,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NE": "0,0,0,0",
+      "NYJ": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220140",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220140",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220140",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220140"
+    }
+  },
+  {
+    "date": "11/12/2020",
+    "time": "7:20:00 PM",
+    "name": "IND @ TEN",
+    "title": "Indianapolis Colts at Tennessee Titans",
+    "awayGame": "IND",
+    "homeGame": "TEN",
+    "status": "STATUS_SCHEDULED",
+    "week": 10,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "IND": "0,0,0,0",
+      "TEN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220203",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220203",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220203",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220203"
+    }
+  },
+  {
+    "date": "11/15/2020",
+    "time": "12:00:00 PM",
+    "name": "HOU @ CLE",
+    "title": "Houston Texans at Cleveland Browns",
+    "awayGame": "HOU",
+    "homeGame": "CLE",
+    "status": "STATUS_SCHEDULED",
+    "week": 10,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "HOU": "0,0,0,0",
+      "CLE": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220165",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220165",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220165",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220165"
+    }
+  },
+  {
+    "date": "11/15/2020",
+    "time": "12:00:00 PM",
+    "name": "WSH @ DET",
+    "title": "Washington  at Detroit Lions",
+    "awayGame": "WSH",
+    "homeGame": "DET",
+    "status": "STATUS_SCHEDULED",
+    "week": 10,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "WSH": "0,0,0,0",
+      "DET": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220289",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220289",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220289",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220289"
+    }
+  },
+  {
+    "date": "11/15/2020",
+    "time": "12:00:00 PM",
+    "name": "JAX @ GB",
+    "title": "Jacksonville Jaguars at Green Bay Packers",
+    "awayGame": "JAX",
+    "homeGame": "GB",
+    "status": "STATUS_SCHEDULED",
+    "week": 10,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "JAX": "0,0,0,0",
+      "GB": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220295",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220295",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220295",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220295"
+    }
+  },
+  {
+    "date": "11/15/2020",
+    "time": "12:00:00 PM",
+    "name": "PHI @ NYG",
+    "title": "Philadelphia Eagles at New York Giants",
+    "awayGame": "PHI",
+    "homeGame": "NYG",
+    "status": "STATUS_SCHEDULED",
+    "week": 10,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PHI": "0,0,0,0",
+      "NYG": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220251",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220251",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220251",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220251"
+    }
+  },
+  {
+    "date": "11/15/2020",
+    "time": "12:00:00 PM",
+    "name": "CIN @ PIT",
+    "title": "Cincinnati Bengals at Pittsburgh Steelers",
+    "awayGame": "CIN",
+    "homeGame": "PIT",
+    "status": "STATUS_SCHEDULED",
+    "week": 10,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CIN": "0,0,0,0",
+      "PIT": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220171",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220171",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220171",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220171"
+    }
+  },
+  {
+    "date": "11/15/2020",
+    "time": "12:00:00 PM",
+    "name": "TB @ CAR",
+    "title": "Tampa Bay Buccaneers at Carolina Panthers",
+    "awayGame": "TB",
+    "homeGame": "CAR",
+    "status": "STATUS_SCHEDULED",
+    "week": 10,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TB": "0,0,0,0",
+      "CAR": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220368",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220368",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220368",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220368"
+    }
+  },
+  {
+    "date": "11/15/2020",
+    "time": "3:05:00 PM",
+    "name": "DEN @ LV",
+    "title": "Denver Broncos at Las Vegas Raiders",
+    "awayGame": "DEN",
+    "homeGame": "LV",
+    "status": "STATUS_SCHEDULED",
+    "week": 10,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DEN": "0,0,0,0",
+      "LV": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220226",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220226",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220226",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220226"
+    }
+  },
+  {
+    "date": "11/15/2020",
+    "time": "3:05:00 PM",
+    "name": "NYJ @ MIA",
+    "title": "New York Jets at Miami Dolphins",
+    "awayGame": "NYJ",
+    "homeGame": "MIA",
+    "status": "STATUS_SCHEDULED",
+    "week": 10,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYJ": "0,0,0,0",
+      "MIA": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220124",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220124",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220124",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220124"
+    }
+  },
+  {
+    "date": "11/15/2020",
+    "time": "3:05:00 PM",
+    "name": "BUF @ ARI",
+    "title": "Buffalo Bills at Arizona Cardinals",
+    "awayGame": "BUF",
+    "homeGame": "ARI",
+    "status": "STATUS_SCHEDULED",
+    "week": 10,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BUF": "0,0,0,0",
+      "ARI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220341",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220341",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220341",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220341"
+    }
+  },
+  {
+    "date": "11/15/2020",
+    "time": "3:25:00 PM",
+    "name": "SEA @ LAR",
+    "title": "Seattle Seahawks at Los Angeles Rams",
+    "awayGame": "SEA",
+    "homeGame": "LAR",
+    "status": "STATUS_SCHEDULED",
+    "week": 10,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SEA": "0,0,0,0",
+      "LAR": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220346",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220346",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220346",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220346"
+    }
+  },
+  {
+    "date": "11/15/2020",
+    "time": "3:25:00 PM",
+    "name": "SF @ NO",
+    "title": "San Francisco 49ers at New Orleans Saints",
+    "awayGame": "SF",
+    "homeGame": "NO",
+    "status": "STATUS_SCHEDULED",
+    "week": 10,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SF": "0,0,0,0",
+      "NO": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220327",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220327",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220327",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220327"
+    }
+  },
+  {
+    "date": "11/15/2020",
+    "time": "7:20:00 PM",
+    "name": "BAL @ NE",
+    "title": "Baltimore Ravens at New England Patriots",
+    "awayGame": "BAL",
+    "homeGame": "NE",
+    "status": "STATUS_SCHEDULED",
+    "week": 10,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BAL": "0,0,0,0",
+      "NE": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220137",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220137",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220137",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220137"
+    }
+  },
+  {
+    "date": "11/16/2020",
+    "time": "7:15:00 PM",
+    "name": "MIN @ CHI",
+    "title": "Minnesota Vikings at Chicago Bears",
+    "awayGame": "MIN",
+    "homeGame": "CHI",
+    "status": "STATUS_SCHEDULED",
+    "week": 10,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIN": "0,0,0,0",
+      "CHI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220276",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220276",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220276",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220276"
+    }
+  },
+  {
+    "date": "11/19/2020",
+    "time": "7:20:00 PM",
+    "name": "ARI @ SEA",
+    "title": "Arizona Cardinals at Seattle Seahawks",
+    "awayGame": "ARI",
+    "homeGame": "SEA",
+    "status": "STATUS_SCHEDULED",
+    "week": 11,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ARI": "0,0,0,0",
+      "SEA": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220360",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220360",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220360",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220360"
+    }
+  },
+  {
+    "date": "11/22/2020",
+    "time": "12:00:00 PM",
+    "name": "PHI @ CLE",
+    "title": "Philadelphia Eagles at Cleveland Browns",
+    "awayGame": "PHI",
+    "homeGame": "CLE",
+    "status": "STATUS_SCHEDULED",
+    "week": 11,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PHI": "0,0,0,0",
+      "CLE": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220167",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220167",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220167",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220167"
+    }
+  },
+  {
+    "date": "11/22/2020",
+    "time": "12:00:00 PM",
+    "name": "GB @ IND",
+    "title": "Green Bay Packers at Indianapolis Colts",
+    "awayGame": "GB",
+    "homeGame": "IND",
+    "status": "STATUS_SCHEDULED",
+    "week": 11,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "GB": "0,0,0,0",
+      "IND": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220191",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220191",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220191",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220191"
+    }
+  },
+  {
+    "date": "11/22/2020",
+    "time": "12:00:00 PM",
+    "name": "ATL @ NO",
+    "title": "Atlanta Falcons at New Orleans Saints",
+    "awayGame": "ATL",
+    "homeGame": "NO",
+    "status": "STATUS_SCHEDULED",
+    "week": 11,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ATL": "0,0,0,0",
+      "NO": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220321",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220321",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220321",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220321"
+    }
+  },
+  {
+    "date": "11/22/2020",
+    "time": "12:00:00 PM",
+    "name": "CIN @ WSH",
+    "title": "Cincinnati Bengals at Washington ",
+    "awayGame": "CIN",
+    "homeGame": "WSH",
+    "status": "STATUS_SCHEDULED",
+    "week": 11,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CIN": "0,0,0,0",
+      "WSH": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220272",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220272",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220272",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220272"
+    }
+  },
+  {
+    "date": "11/22/2020",
+    "time": "12:00:00 PM",
+    "name": "DET @ CAR",
+    "title": "Detroit Lions at Carolina Panthers",
+    "awayGame": "DET",
+    "homeGame": "CAR",
+    "status": "STATUS_SCHEDULED",
+    "week": 11,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DET": "0,0,0,0",
+      "CAR": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220318",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220318",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220318",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220318"
+    }
+  },
+  {
+    "date": "11/22/2020",
+    "time": "12:00:00 PM",
+    "name": "PIT @ JAX",
+    "title": "Pittsburgh Steelers at Jacksonville Jaguars",
+    "awayGame": "PIT",
+    "homeGame": "JAX",
+    "status": "STATUS_SCHEDULED",
+    "week": 11,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PIT": "0,0,0,0",
+      "JAX": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220198",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220198",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220198",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220198"
+    }
+  },
+  {
+    "date": "11/22/2020",
+    "time": "12:00:00 PM",
+    "name": "TEN @ BAL",
+    "title": "Tennessee Titans at Baltimore Ravens",
+    "awayGame": "TEN",
+    "homeGame": "BAL",
+    "status": "STATUS_SCHEDULED",
+    "week": 11,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TEN": "0,0,0,0",
+      "BAL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220150",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220150",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220150",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220150"
+    }
+  },
+  {
+    "date": "11/22/2020",
+    "time": "12:00:00 PM",
+    "name": "NE @ HOU",
+    "title": "New England Patriots at Houston Texans",
+    "awayGame": "NE",
+    "homeGame": "HOU",
+    "status": "STATUS_SCHEDULED",
+    "week": 11,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NE": "0,0,0,0",
+      "HOU": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220185",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220185",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220185",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220185"
+    }
+  },
+  {
+    "date": "11/22/2020",
+    "time": "3:05:00 PM",
+    "name": "LAC @ DEN",
+    "title": "Los Angeles Chargers at Denver Broncos",
+    "awayGame": "LAC",
+    "homeGame": "DEN",
+    "status": "STATUS_SCHEDULED",
+    "week": 11,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAC": "0,0,0,0",
+      "DEN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220212",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220212",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220212",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220212"
+    }
+  },
+  {
+    "date": "11/22/2020",
+    "time": "3:25:00 PM",
+    "name": "DAL @ MIN",
+    "title": "Dallas Cowboys at Minnesota Vikings",
+    "awayGame": "DAL",
+    "homeGame": "MIN",
+    "status": "STATUS_SCHEDULED",
+    "week": 11,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DAL": "0,0,0,0",
+      "MIN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220305",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220305",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220305",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220305"
+    }
+  },
+  {
+    "date": "11/22/2020",
+    "time": "7:20:00 PM",
+    "name": "KC @ LV",
+    "title": "Kansas City Chiefs at Las Vegas Raiders",
+    "awayGame": "KC",
+    "homeGame": "LV",
+    "status": "STATUS_SCHEDULED",
+    "week": 11,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "KC": "0,0,0,0",
+      "LV": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220227",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220227",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220227",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220227"
+    }
+  },
+  {
+    "date": "11/23/2020",
+    "time": "7:15:00 PM",
+    "name": "LAR @ TB",
+    "title": "Los Angeles Rams at Tampa Bay Buccaneers",
+    "awayGame": "LAR",
+    "homeGame": "TB",
+    "status": "STATUS_SCHEDULED",
+    "week": 11,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAR": "0,0,0,0",
+      "TB": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220335",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220335",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220335",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220335"
+    }
+  },
+  {
+    "date": "11/26/2020",
+    "time": "11:30:00 AM",
+    "name": "HOU @ DET",
+    "title": "Houston Texans at Detroit Lions",
+    "awayGame": "HOU",
+    "homeGame": "DET",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "HOU": "0,0,0,0",
+      "DET": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220287",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220287",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220287",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220287"
+    }
+  },
+  {
+    "date": "11/26/2020",
+    "time": "3:30:00 PM",
+    "name": "WSH @ DAL",
+    "title": "Washington  at Dallas Cowboys",
+    "awayGame": "WSH",
+    "homeGame": "DAL",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "WSH": "0,0,0,0",
+      "DAL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220244",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220244",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220244",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220244"
+    }
+  },
+  {
+    "date": "11/26/2020",
+    "time": "7:20:00 PM",
+    "name": "BAL @ PIT",
+    "title": "Baltimore Ravens at Pittsburgh Steelers",
+    "awayGame": "BAL",
+    "homeGame": "PIT",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BAL": "0,0,0,0",
+      "PIT": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220170",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220170",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220170",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220170"
+    }
+  },
+  {
+    "date": "11/29/2020",
+    "time": "12:00:00 PM",
+    "name": "LV @ ATL",
+    "title": "Las Vegas Raiders at Atlanta Falcons",
+    "awayGame": "LV",
+    "homeGame": "ATL",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LV": "0,0,0,0",
+      "ATL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220312",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220312",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220312",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220312"
+    }
+  },
+  {
+    "date": "11/29/2020",
+    "time": "12:00:00 PM",
+    "name": "LAC @ BUF",
+    "title": "Los Angeles Chargers at Buffalo Bills",
+    "awayGame": "LAC",
+    "homeGame": "BUF",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAC": "0,0,0,0",
+      "BUF": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220118",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220118",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220118",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220118"
+    }
+  },
+  {
+    "date": "11/29/2020",
+    "time": "12:00:00 PM",
+    "name": "NYG @ CIN",
+    "title": "New York Giants at Cincinnati Bengals",
+    "awayGame": "NYG",
+    "homeGame": "CIN",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYG": "0,0,0,0",
+      "CIN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220160",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220160",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220160",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220160"
+    }
+  },
+  {
+    "date": "11/29/2020",
+    "time": "12:00:00 PM",
+    "name": "TEN @ IND",
+    "title": "Tennessee Titans at Indianapolis Colts",
+    "awayGame": "TEN",
+    "homeGame": "IND",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TEN": "0,0,0,0",
+      "IND": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220188",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220188",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220188",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220188"
+    }
+  },
+  {
+    "date": "11/29/2020",
+    "time": "12:00:00 PM",
+    "name": "CAR @ MIN",
+    "title": "Carolina Panthers at Minnesota Vikings",
+    "awayGame": "CAR",
+    "homeGame": "MIN",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CAR": "0,0,0,0",
+      "MIN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220302",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220302",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220302",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220302"
+    }
+  },
+  {
+    "date": "11/29/2020",
+    "time": "12:00:00 PM",
+    "name": "ARI @ NE",
+    "title": "Arizona Cardinals at New England Patriots",
+    "awayGame": "ARI",
+    "homeGame": "NE",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ARI": "0,0,0,0",
+      "NE": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220135",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220135",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220135",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220135"
+    }
+  },
+  {
+    "date": "11/29/2020",
+    "time": "12:00:00 PM",
+    "name": "MIA @ NYJ",
+    "title": "Miami Dolphins at New York Jets",
+    "awayGame": "MIA",
+    "homeGame": "NYJ",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIA": "0,0,0,0",
+      "NYJ": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220139",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220139",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220139",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220139"
+    }
+  },
+  {
+    "date": "11/29/2020",
+    "time": "12:00:00 PM",
+    "name": "CLE @ JAX",
+    "title": "Cleveland Browns at Jacksonville Jaguars",
+    "awayGame": "CLE",
+    "homeGame": "JAX",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CLE": "0,0,0,0",
+      "JAX": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220197",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220197",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220197",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220197"
+    }
+  },
+  {
+    "date": "11/29/2020",
+    "time": "3:05:00 PM",
+    "name": "NO @ DEN",
+    "title": "New Orleans Saints at Denver Broncos",
+    "awayGame": "NO",
+    "homeGame": "DEN",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NO": "0,0,0,0",
+      "DEN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220215",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220215",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220215",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220215"
+    }
+  },
+  {
+    "date": "11/29/2020",
+    "time": "3:05:00 PM",
+    "name": "SF @ LAR",
+    "title": "San Francisco 49ers at Los Angeles Rams",
+    "awayGame": "SF",
+    "homeGame": "LAR",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SF": "0,0,0,0",
+      "LAR": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220345",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220345",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220345",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220345"
+    }
+  },
+  {
+    "date": "11/29/2020",
+    "time": "3:25:00 PM",
+    "name": "KC @ TB",
+    "title": "Kansas City Chiefs at Tampa Bay Buccaneers",
+    "awayGame": "KC",
+    "homeGame": "TB",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "KC": "0,0,0,0",
+      "TB": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220333",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220333",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220333",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220333"
+    }
+  },
+  {
+    "date": "11/29/2020",
+    "time": "7:20:00 PM",
+    "name": "CHI @ GB",
+    "title": "Chicago Bears at Green Bay Packers",
+    "awayGame": "CHI",
+    "homeGame": "GB",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CHI": "0,0,0,0",
+      "GB": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220290",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220290",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220290",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220290"
+    }
+  },
+  {
+    "date": "11/30/2020",
+    "time": "7:15:00 PM",
+    "name": "SEA @ PHI",
+    "title": "Seattle Seahawks at Philadelphia Eagles",
+    "awayGame": "SEA",
+    "homeGame": "PHI",
+    "status": "STATUS_SCHEDULED",
+    "week": 12,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SEA": "0,0,0,0",
+      "PHI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220262",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220262",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220262",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220262"
+    }
+  },
+  {
+    "date": "12/3/2020",
+    "time": "7:20:00 PM",
+    "name": "DAL @ BAL",
+    "title": "Dallas Cowboys at Baltimore Ravens",
+    "awayGame": "DAL",
+    "homeGame": "BAL",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DAL": "0,0,0,0",
+      "BAL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220151",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220151",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220151",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220151"
+    }
+  },
+  {
+    "date": "12/6/2020",
+    "time": "12:00:00 PM",
+    "name": "NO @ ATL",
+    "title": "New Orleans Saints at Atlanta Falcons",
+    "awayGame": "NO",
+    "homeGame": "ATL",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NO": "0,0,0,0",
+      "ATL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220307",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220307",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220307",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220307"
+    }
+  },
+  {
+    "date": "12/6/2020",
+    "time": "12:00:00 PM",
+    "name": "DET @ CHI",
+    "title": "Detroit Lions at Chicago Bears",
+    "awayGame": "DET",
+    "homeGame": "CHI",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DET": "0,0,0,0",
+      "CHI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220274",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220274",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220274",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220274"
+    }
+  },
+  {
+    "date": "12/6/2020",
+    "time": "12:00:00 PM",
+    "name": "CLE @ TEN",
+    "title": "Cleveland Browns at Tennessee Titans",
+    "awayGame": "CLE",
+    "homeGame": "TEN",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CLE": "0,0,0,0",
+      "TEN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220205",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220205",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220205",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220205"
+    }
+  },
+  {
+    "date": "12/6/2020",
+    "time": "12:00:00 PM",
+    "name": "CIN @ MIA",
+    "title": "Cincinnati Bengals at Miami Dolphins",
+    "awayGame": "CIN",
+    "homeGame": "MIA",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CIN": "0,0,0,0",
+      "MIA": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220129",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220129",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220129",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220129"
+    }
+  },
+  {
+    "date": "12/6/2020",
+    "time": "12:00:00 PM",
+    "name": "JAX @ MIN",
+    "title": "Jacksonville Jaguars at Minnesota Vikings",
+    "awayGame": "JAX",
+    "homeGame": "MIN",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "JAX": "0,0,0,0",
+      "MIN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220303",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220303",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220303",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220303"
+    }
+  },
+  {
+    "date": "12/6/2020",
+    "time": "12:00:00 PM",
+    "name": "LV @ NYJ",
+    "title": "Las Vegas Raiders at New York Jets",
+    "awayGame": "LV",
+    "homeGame": "NYJ",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LV": "0,0,0,0",
+      "NYJ": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220142",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220142",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220142",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220142"
+    }
+  },
+  {
+    "date": "12/6/2020",
+    "time": "12:00:00 PM",
+    "name": "WSH @ PIT",
+    "title": "Washington  at Pittsburgh Steelers",
+    "awayGame": "WSH",
+    "homeGame": "PIT",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "WSH": "0,0,0,0",
+      "PIT": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220176",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220176",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220176",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220176"
+    }
+  },
+  {
+    "date": "12/6/2020",
+    "time": "12:00:00 PM",
+    "name": "IND @ HOU",
+    "title": "Indianapolis Colts at Houston Texans",
+    "awayGame": "IND",
+    "homeGame": "HOU",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "IND": "0,0,0,0",
+      "HOU": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220178",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220178",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220178",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220178"
+    }
+  },
+  {
+    "date": "12/6/2020",
+    "time": "3:05:00 PM",
+    "name": "LAR @ ARI",
+    "title": "Los Angeles Rams at Arizona Cardinals",
+    "awayGame": "LAR",
+    "homeGame": "ARI",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAR": "0,0,0,0",
+      "ARI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220336",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220336",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220336",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220336"
+    }
+  },
+  {
+    "date": "12/6/2020",
+    "time": "3:05:00 PM",
+    "name": "NYG @ SEA",
+    "title": "New York Giants at Seattle Seahawks",
+    "awayGame": "NYG",
+    "homeGame": "SEA",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYG": "0,0,0,0",
+      "SEA": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220364",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220364",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220364",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220364"
+    }
+  },
+  {
+    "date": "12/6/2020",
+    "time": "3:25:00 PM",
+    "name": "PHI @ GB",
+    "title": "Philadelphia Eagles at Green Bay Packers",
+    "awayGame": "PHI",
+    "homeGame": "GB",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PHI": "0,0,0,0",
+      "GB": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220297",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220297",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220297",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220297"
+    }
+  },
+  {
+    "date": "12/6/2020",
+    "time": "3:25:00 PM",
+    "name": "NE @ LAC",
+    "title": "New England Patriots at Los Angeles Chargers",
+    "awayGame": "NE",
+    "homeGame": "LAC",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NE": "0,0,0,0",
+      "LAC": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220237",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220237",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220237",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220237"
+    }
+  },
+  {
+    "date": "12/6/2020",
+    "time": "7:20:00 PM",
+    "name": "DEN @ KC",
+    "title": "Denver Broncos at Kansas City Chiefs",
+    "awayGame": "DEN",
+    "homeGame": "KC",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DEN": "0,0,0,0",
+      "KC": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220218",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220218",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220218",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220218"
+    }
+  },
+  {
+    "date": "12/7/2020",
+    "time": "7:15:00 PM",
+    "name": "BUF @ SF",
+    "title": "Buffalo Bills at San Francisco 49ers",
+    "awayGame": "BUF",
+    "homeGame": "SF",
+    "status": "STATUS_SCHEDULED",
+    "week": 13,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BUF": "0,0,0,0",
+      "SF": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220357",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220357",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220357",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220357"
+    }
+  },
+  {
+    "date": "12/10/2020",
+    "time": "7:20:00 PM",
+    "name": "NE @ LAR",
+    "title": "New England Patriots at Los Angeles Rams",
+    "awayGame": "NE",
+    "homeGame": "LAR",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NE": "0,0,0,0",
+      "LAR": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220349",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220349",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220349",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220349"
+    }
+  },
+  {
+    "date": "12/13/2020",
+    "time": "12:00:00 PM",
+    "name": "HOU @ CHI",
+    "title": "Houston Texans at Chicago Bears",
+    "awayGame": "HOU",
+    "homeGame": "CHI",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "HOU": "0,0,0,0",
+      "CHI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220279",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220279",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220279",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220279"
+    }
+  },
+  {
+    "date": "12/13/2020",
+    "time": "12:00:00 PM",
+    "name": "DAL @ CIN",
+    "title": "Dallas Cowboys at Cincinnati Bengals",
+    "awayGame": "DAL",
+    "homeGame": "CIN",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DAL": "0,0,0,0",
+      "CIN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220159",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220159",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220159",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220159"
+    }
+  },
+  {
+    "date": "12/13/2020",
+    "time": "12:00:00 PM",
+    "name": "GB @ DET",
+    "title": "Green Bay Packers at Detroit Lions",
+    "awayGame": "GB",
+    "homeGame": "DET",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "GB": "0,0,0,0",
+      "DET": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220283",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220283",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220283",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220283"
+    }
+  },
+  {
+    "date": "12/13/2020",
+    "time": "12:00:00 PM",
+    "name": "KC @ MIA",
+    "title": "Kansas City Chiefs at Miami Dolphins",
+    "awayGame": "KC",
+    "homeGame": "MIA",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "KC": "0,0,0,0",
+      "MIA": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220125",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220125",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220125",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220125"
+    }
+  },
+  {
+    "date": "12/13/2020",
+    "time": "12:00:00 PM",
+    "name": "ARI @ NYG",
+    "title": "Arizona Cardinals at New York Giants",
+    "awayGame": "ARI",
+    "homeGame": "NYG",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ARI": "0,0,0,0",
+      "NYG": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220253",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220253",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220253",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220253"
+    }
+  },
+  {
+    "date": "12/13/2020",
+    "time": "12:00:00 PM",
+    "name": "MIN @ TB",
+    "title": "Minnesota Vikings at Tampa Bay Buccaneers",
+    "awayGame": "MIN",
+    "homeGame": "TB",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIN": "0,0,0,0",
+      "TB": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220332",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220332",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220332",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220332"
+    }
+  },
+  {
+    "date": "12/13/2020",
+    "time": "12:00:00 PM",
+    "name": "DEN @ CAR",
+    "title": "Denver Broncos at Carolina Panthers",
+    "awayGame": "DEN",
+    "homeGame": "CAR",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DEN": "0,0,0,0",
+      "CAR": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220319",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220319",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220319",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220319"
+    }
+  },
+  {
+    "date": "12/13/2020",
+    "time": "12:00:00 PM",
+    "name": "TEN @ JAX",
+    "title": "Tennessee Titans at Jacksonville Jaguars",
+    "awayGame": "TEN",
+    "homeGame": "JAX",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TEN": "0,0,0,0",
+      "JAX": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220196",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220196",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220196",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220196"
+    }
+  },
+  {
+    "date": "12/13/2020",
+    "time": "3:05:00 PM",
+    "name": "IND @ LV",
+    "title": "Indianapolis Colts at Las Vegas Raiders",
+    "awayGame": "IND",
+    "homeGame": "LV",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "IND": "0,0,0,0",
+      "LV": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220233",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220233",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220233",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220233"
+    }
+  },
+  {
+    "date": "12/13/2020",
+    "time": "3:05:00 PM",
+    "name": "NYJ @ SEA",
+    "title": "New York Jets at Seattle Seahawks",
+    "awayGame": "NYJ",
+    "homeGame": "SEA",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYJ": "0,0,0,0",
+      "SEA": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220366",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220366",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220366",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220366"
+    }
+  },
+  {
+    "date": "12/13/2020",
+    "time": "3:25:00 PM",
+    "name": "NO @ PHI",
+    "title": "New Orleans Saints at Philadelphia Eagles",
+    "awayGame": "NO",
+    "homeGame": "PHI",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NO": "0,0,0,0",
+      "PHI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220265",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220265",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220265",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220265"
+    }
+  },
+  {
+    "date": "12/13/2020",
+    "time": "3:25:00 PM",
+    "name": "ATL @ LAC",
+    "title": "Atlanta Falcons at Los Angeles Chargers",
+    "awayGame": "ATL",
+    "homeGame": "LAC",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ATL": "0,0,0,0",
+      "LAC": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220239",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220239",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220239",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220239"
+    }
+  },
+  {
+    "date": "12/13/2020",
+    "time": "3:25:00 PM",
+    "name": "WSH @ SF",
+    "title": "Washington  at San Francisco 49ers",
+    "awayGame": "WSH",
+    "homeGame": "SF",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "WSH": "0,0,0,0",
+      "SF": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220356",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220356",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220356",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220356"
+    }
+  },
+  {
+    "date": "12/13/2020",
+    "time": "7:20:00 PM",
+    "name": "PIT @ BUF",
+    "title": "Pittsburgh Steelers at Buffalo Bills",
+    "awayGame": "PIT",
+    "homeGame": "BUF",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PIT": "0,0,0,0",
+      "BUF": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220121",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220121",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220121",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220121"
+    }
+  },
+  {
+    "date": "12/14/2020",
+    "time": "7:15:00 PM",
+    "name": "BAL @ CLE",
+    "title": "Baltimore Ravens at Cleveland Browns",
+    "awayGame": "BAL",
+    "homeGame": "CLE",
+    "status": "STATUS_SCHEDULED",
+    "week": 14,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BAL": "0,0,0,0",
+      "CLE": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220162",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220162",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220162",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220162"
+    }
+  },
+  {
+    "date": "12/17/2020",
+    "time": "7:20:00 PM",
+    "name": "LAC @ LV",
+    "title": "Los Angeles Chargers at Las Vegas Raiders",
+    "awayGame": "LAC",
+    "homeGame": "LV",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAC": "0,0,0,0",
+      "LV": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220228",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220228",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220228",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220228"
+    }
+  },
+  {
+    "date": "12/19/2020",
+    "time": "11:00:00 PM",
+    "name": "BUF @ DEN",
+    "title": "Buffalo Bills at Denver Broncos",
+    "awayGame": "BUF",
+    "homeGame": "DEN",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BUF": "0,0,0,0",
+      "DEN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220213",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220213",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220213",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220213"
+    }
+  },
+  {
+    "date": "12/19/2020",
+    "time": "11:00:00 PM",
+    "name": "CAR @ GB",
+    "title": "Carolina Panthers at Green Bay Packers",
+    "awayGame": "CAR",
+    "homeGame": "GB",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CAR": "0,0,0,0",
+      "GB": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220294",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220294",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220294",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220294"
+    }
+  },
+  {
+    "date": "12/19/2020",
+    "time": "11:00:00 PM",
+    "name": "DET @ TEN",
+    "title": "Detroit Lions at Tennessee Titans",
+    "awayGame": "DET",
+    "homeGame": "TEN",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DET": "0,0,0,0",
+      "TEN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220208",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220208",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220208",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220208"
+    }
+  },
+  {
+    "date": "12/19/2020",
+    "time": "11:00:00 PM",
+    "name": "HOU @ IND",
+    "title": "Houston Texans at Indianapolis Colts",
+    "awayGame": "HOU",
+    "homeGame": "IND",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "HOU": "0,0,0,0",
+      "IND": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220186",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220186",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220186",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220186"
+    }
+  },
+  {
+    "date": "12/19/2020",
+    "time": "11:00:00 PM",
+    "name": "NYJ @ LAR",
+    "title": "New York Jets at Los Angeles Rams",
+    "awayGame": "NYJ",
+    "homeGame": "LAR",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYJ": "0,0,0,0",
+      "LAR": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220350",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220350",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220350",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220350"
+    }
+  },
+  {
+    "date": "12/20/2020",
+    "time": "12:00:00 PM",
+    "name": "TB @ ATL",
+    "title": "Tampa Bay Buccaneers at Atlanta Falcons",
+    "awayGame": "TB",
+    "homeGame": "ATL",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TB": "0,0,0,0",
+      "ATL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220308",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220308",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220308",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220308"
+    }
+  },
+  {
+    "date": "12/20/2020",
+    "time": "12:00:00 PM",
+    "name": "NE @ MIA",
+    "title": "New England Patriots at Miami Dolphins",
+    "awayGame": "NE",
+    "homeGame": "MIA",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NE": "0,0,0,0",
+      "MIA": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220123",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220123",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220123",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220123"
+    }
+  },
+  {
+    "date": "12/20/2020",
+    "time": "12:00:00 PM",
+    "name": "CHI @ MIN",
+    "title": "Chicago Bears at Minnesota Vikings",
+    "awayGame": "CHI",
+    "homeGame": "MIN",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CHI": "0,0,0,0",
+      "MIN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220298",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220298",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220298",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220298"
+    }
+  },
+  {
+    "date": "12/20/2020",
+    "time": "12:00:00 PM",
+    "name": "CLE @ NYG",
+    "title": "Cleveland Browns at New York Giants",
+    "awayGame": "CLE",
+    "homeGame": "NYG",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CLE": "0,0,0,0",
+      "NYG": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220255",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220255",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220255",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220255"
+    }
+  },
+  {
+    "date": "12/20/2020",
+    "time": "12:00:00 PM",
+    "name": "SEA @ WSH",
+    "title": "Seattle Seahawks at Washington ",
+    "awayGame": "SEA",
+    "homeGame": "WSH",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SEA": "0,0,0,0",
+      "WSH": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220270",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220270",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220270",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220270"
+    }
+  },
+  {
+    "date": "12/20/2020",
+    "time": "12:00:00 PM",
+    "name": "JAX @ BAL",
+    "title": "Jacksonville Jaguars at Baltimore Ravens",
+    "awayGame": "JAX",
+    "homeGame": "BAL",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "JAX": "0,0,0,0",
+      "BAL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220149",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220149",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220149",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220149"
+    }
+  },
+  {
+    "date": "12/20/2020",
+    "time": "3:05:00 PM",
+    "name": "PHI @ ARI",
+    "title": "Philadelphia Eagles at Arizona Cardinals",
+    "awayGame": "PHI",
+    "homeGame": "ARI",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PHI": "0,0,0,0",
+      "ARI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220339",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220339",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220339",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220339"
+    }
+  },
+  {
+    "date": "12/20/2020",
+    "time": "3:25:00 PM",
+    "name": "KC @ NO",
+    "title": "Kansas City Chiefs at New Orleans Saints",
+    "awayGame": "KC",
+    "homeGame": "NO",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "KC": "0,0,0,0",
+      "NO": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220325",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220325",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220325",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220325"
+    }
+  },
+  {
+    "date": "12/20/2020",
+    "time": "7:20:00 PM",
+    "name": "SF @ DAL",
+    "title": "San Francisco 49ers at Dallas Cowboys",
+    "awayGame": "SF",
+    "homeGame": "DAL",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SF": "0,0,0,0",
+      "DAL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220246",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220246",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220246",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220246"
+    }
+  },
+  {
+    "date": "12/21/2020",
+    "time": "7:15:00 PM",
+    "name": "PIT @ CIN",
+    "title": "Pittsburgh Steelers at Cincinnati Bengals",
+    "awayGame": "PIT",
+    "homeGame": "CIN",
+    "status": "STATUS_SCHEDULED",
+    "week": 15,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PIT": "0,0,0,0",
+      "CIN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220156",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220156",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220156",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220156"
+    }
+  },
+  {
+    "date": "12/25/2020",
+    "time": "3:30:00 PM",
+    "name": "MIN @ NO",
+    "title": "Minnesota Vikings at New Orleans Saints",
+    "awayGame": "MIN",
+    "homeGame": "NO",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIN": "0,0,0,0",
+      "NO": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220324",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220324",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220324",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220324"
+    }
+  },
+  {
+    "date": "12/26/2020",
+    "time": "11:00:00 PM",
+    "name": "TB @ DET",
+    "title": "Tampa Bay Buccaneers at Detroit Lions",
+    "awayGame": "TB",
+    "homeGame": "DET",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TB": "0,0,0,0",
+      "DET": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220286",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220286",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220286",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220286"
+    }
+  },
+  {
+    "date": "12/26/2020",
+    "time": "11:00:00 PM",
+    "name": "MIA @ LV",
+    "title": "Miami Dolphins at Las Vegas Raiders",
+    "awayGame": "MIA",
+    "homeGame": "LV",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIA": "0,0,0,0",
+      "LV": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220230",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220230",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220230",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220230"
+    }
+  },
+  {
+    "date": "12/26/2020",
+    "time": "11:00:00 PM",
+    "name": "CLE @ NYJ",
+    "title": "Cleveland Browns at New York Jets",
+    "awayGame": "CLE",
+    "homeGame": "NYJ",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CLE": "0,0,0,0",
+      "NYJ": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220145",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220145",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220145",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220145"
+    }
+  },
+  {
+    "date": "12/26/2020",
+    "time": "11:00:00 PM",
+    "name": "SF @ ARI",
+    "title": "San Francisco 49ers at Arizona Cardinals",
+    "awayGame": "SF",
+    "homeGame": "ARI",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SF": "0,0,0,0",
+      "ARI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220337",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220337",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220337",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220337"
+    }
+  },
+  {
+    "date": "12/26/2020",
+    "time": "11:00:00 PM",
+    "name": "DEN @ LAC",
+    "title": "Denver Broncos at Los Angeles Chargers",
+    "awayGame": "DEN",
+    "homeGame": "LAC",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DEN": "0,0,0,0",
+      "LAC": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220234",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220234",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220234",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220234"
+    }
+  },
+  {
+    "date": "12/27/2020",
+    "time": "12:00:00 PM",
+    "name": "ATL @ KC",
+    "title": "Atlanta Falcons at Kansas City Chiefs",
+    "awayGame": "ATL",
+    "homeGame": "KC",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ATL": "0,0,0,0",
+      "KC": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220223",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220223",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220223",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220223"
+    }
+  },
+  {
+    "date": "12/27/2020",
+    "time": "12:00:00 PM",
+    "name": "IND @ PIT",
+    "title": "Indianapolis Colts at Pittsburgh Steelers",
+    "awayGame": "IND",
+    "homeGame": "PIT",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "IND": "0,0,0,0",
+      "PIT": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220174",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220174",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220174",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220174"
+    }
+  },
+  {
+    "date": "12/27/2020",
+    "time": "12:00:00 PM",
+    "name": "CAR @ WSH",
+    "title": "Carolina Panthers at Washington ",
+    "awayGame": "CAR",
+    "homeGame": "WSH",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CAR": "0,0,0,0",
+      "WSH": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220273",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220273",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220273",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220273"
+    }
+  },
+  {
+    "date": "12/27/2020",
+    "time": "12:00:00 PM",
+    "name": "CHI @ JAX",
+    "title": "Chicago Bears at Jacksonville Jaguars",
+    "awayGame": "CHI",
+    "homeGame": "JAX",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CHI": "0,0,0,0",
+      "JAX": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220199",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220199",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220199",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220199"
+    }
+  },
+  {
+    "date": "12/27/2020",
+    "time": "12:00:00 PM",
+    "name": "NYG @ BAL",
+    "title": "New York Giants at Baltimore Ravens",
+    "awayGame": "NYG",
+    "homeGame": "BAL",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYG": "0,0,0,0",
+      "BAL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220152",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220152",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220152",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220152"
+    }
+  },
+  {
+    "date": "12/27/2020",
+    "time": "12:00:00 PM",
+    "name": "CIN @ HOU",
+    "title": "Cincinnati Bengals at Houston Texans",
+    "awayGame": "CIN",
+    "homeGame": "HOU",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "CIN": "0,0,0,0",
+      "HOU": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220182",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220182",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220182",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220182"
+    }
+  },
+  {
+    "date": "12/27/2020",
+    "time": "3:05:00 PM",
+    "name": "LAR @ SEA",
+    "title": "Los Angeles Rams at Seattle Seahawks",
+    "awayGame": "LAR",
+    "homeGame": "SEA",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAR": "0,0,0,0",
+      "SEA": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220362",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220362",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220362",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220362"
+    }
+  },
+  {
+    "date": "12/27/2020",
+    "time": "3:25:00 PM",
+    "name": "PHI @ DAL",
+    "title": "Philadelphia Eagles at Dallas Cowboys",
+    "awayGame": "PHI",
+    "homeGame": "DAL",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PHI": "0,0,0,0",
+      "DAL": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220243",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220243",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220243",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220243"
+    }
+  },
+  {
+    "date": "12/27/2020",
+    "time": "7:20:00 PM",
+    "name": "TEN @ GB",
+    "title": "Tennessee Titans at Green Bay Packers",
+    "awayGame": "TEN",
+    "homeGame": "GB",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TEN": "0,0,0,0",
+      "GB": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220296",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220296",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220296",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220296"
+    }
+  },
+  {
+    "date": "12/28/2020",
+    "time": "7:15:00 PM",
+    "name": "BUF @ NE",
+    "title": "Buffalo Bills at New England Patriots",
+    "awayGame": "BUF",
+    "homeGame": "NE",
+    "status": "STATUS_SCHEDULED",
+    "week": 16,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BUF": "0,0,0,0",
+      "NE": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220130",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220130",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220130",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220130"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "12:00:00 PM",
+    "name": "MIA @ BUF",
+    "title": "Miami Dolphins at Buffalo Bills",
+    "awayGame": "MIA",
+    "homeGame": "BUF",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIA": "0,0,0,0",
+      "BUF": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220114",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220114",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220114",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220114"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "12:00:00 PM",
+    "name": "GB @ CHI",
+    "title": "Green Bay Packers at Chicago Bears",
+    "awayGame": "GB",
+    "homeGame": "CHI",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "GB": "0,0,0,0",
+      "CHI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220275",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220275",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220275",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220275"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "12:00:00 PM",
+    "name": "BAL @ CIN",
+    "title": "Baltimore Ravens at Cincinnati Bengals",
+    "awayGame": "BAL",
+    "homeGame": "CIN",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "BAL": "0,0,0,0",
+      "CIN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220154",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220154",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220154",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220154"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "12:00:00 PM",
+    "name": "PIT @ CLE",
+    "title": "Pittsburgh Steelers at Cleveland Browns",
+    "awayGame": "PIT",
+    "homeGame": "CLE",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "PIT": "0,0,0,0",
+      "CLE": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220164",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220164",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220164",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220164"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "12:00:00 PM",
+    "name": "MIN @ DET",
+    "title": "Minnesota Vikings at Detroit Lions",
+    "awayGame": "MIN",
+    "homeGame": "DET",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "MIN": "0,0,0,0",
+      "DET": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220284",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220284",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220284",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220284"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "12:00:00 PM",
+    "name": "JAX @ IND",
+    "title": "Jacksonville Jaguars at Indianapolis Colts",
+    "awayGame": "JAX",
+    "homeGame": "IND",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "JAX": "0,0,0,0",
+      "IND": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220187",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220187",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220187",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220187"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "12:00:00 PM",
+    "name": "LAC @ KC",
+    "title": "Los Angeles Chargers at Kansas City Chiefs",
+    "awayGame": "LAC",
+    "homeGame": "KC",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LAC": "0,0,0,0",
+      "KC": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220220",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220220",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220220",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220220"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "12:00:00 PM",
+    "name": "NYJ @ NE",
+    "title": "New York Jets at New England Patriots",
+    "awayGame": "NYJ",
+    "homeGame": "NE",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NYJ": "0,0,0,0",
+      "NE": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220132",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220132",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220132",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220132"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "12:00:00 PM",
+    "name": "DAL @ NYG",
+    "title": "Dallas Cowboys at New York Giants",
+    "awayGame": "DAL",
+    "homeGame": "NYG",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "DAL": "0,0,0,0",
+      "NYG": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220250",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220250",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220250",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220250"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "12:00:00 PM",
+    "name": "WSH @ PHI",
+    "title": "Washington  at Philadelphia Eagles",
+    "awayGame": "WSH",
+    "homeGame": "PHI",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "WSH": "0,0,0,0",
+      "PHI": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220260",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220260",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220260",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220260"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "12:00:00 PM",
+    "name": "ATL @ TB",
+    "title": "Atlanta Falcons at Tampa Bay Buccaneers",
+    "awayGame": "ATL",
+    "homeGame": "TB",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ATL": "0,0,0,0",
+      "TB": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220328",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220328",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220328",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220328"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "12:00:00 PM",
+    "name": "NO @ CAR",
+    "title": "New Orleans Saints at Carolina Panthers",
+    "awayGame": "NO",
+    "homeGame": "CAR",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "NO": "0,0,0,0",
+      "CAR": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220315",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220315",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220315",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220315"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "12:00:00 PM",
+    "name": "TEN @ HOU",
+    "title": "Tennessee Titans at Houston Texans",
+    "awayGame": "TEN",
+    "homeGame": "HOU",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "TEN": "0,0,0,0",
+      "HOU": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220180",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220180",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220180",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220180"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "3:25:00 PM",
+    "name": "LV @ DEN",
+    "title": "Las Vegas Raiders at Denver Broncos",
+    "awayGame": "LV",
+    "homeGame": "DEN",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "LV": "0,0,0,0",
+      "DEN": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220211",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220211",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220211",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220211"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "3:25:00 PM",
+    "name": "ARI @ LAR",
+    "title": "Arizona Cardinals at Los Angeles Rams",
+    "awayGame": "ARI",
+    "homeGame": "LAR",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "ARI": "0,0,0,0",
+      "LAR": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220344",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220344",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220344",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220344"
+    }
+  },
+  {
+    "date": "1/3/2021",
+    "time": "3:25:00 PM",
+    "name": "SEA @ SF",
+    "title": "Seattle Seahawks at San Francisco 49ers",
+    "awayGame": "SEA",
+    "homeGame": "SF",
+    "status": "STATUS_SCHEDULED",
+    "week": 17,
+    "year": 2020,
+    "seasontype": 2,
+    "linescores": {
+      "SEA": "0,0,0,0",
+      "SF": "0,0,0,0",
+      "total": "0,0,0,0"
+    },
+    "api": {
+      "game": "https://cdn.espn.com/core/nfl/game?xhr=1&gameId=401220354",
+      "summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401220354",
+      "playbyplay": "https://cdn.espn.com/core/nfl/playbyplay?xhr=1&gameId=401220354",
+      "boxscore": "https://cdn.espn.com/core/nfl/boxscore?xhr=1&gameId=401220354"
+    }
+  }
+]
