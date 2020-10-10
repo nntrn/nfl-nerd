@@ -8,7 +8,8 @@ const getType = (value) => Object.prototype.toString.call(value).match(/^\[objec
 exports.getType = getType
 
 // usage: getme('drives.previous.3.team',obj)
-const getMe = (string, obj) => string.split('.').reduce((prev, curr) => prev[curr], obj)
+const getMe = (string, obj) => string.split('.').reduce((prev, curr) =>
+  Array.isArray(prev) ? prev.map(c => c[curr]) : prev[curr], obj)
 
 exports.getMe = getMe
 
@@ -38,19 +39,17 @@ exports.flattenObjectCamel = flattenObjectCamel
 function createAndWrite(dirPath = './tmp/data.json', data) {
   fs.mkdir(path.dirname(dirPath), { recursive: true }, function () {
     fs.writeFileSync(dirPath, data)
-    console.log(dirPath)
   })
 }
 
 exports.createAndWrite = createAndWrite
 
-function getIfExists(dirPath = '.') {
+function getIfExists(dirPath = '') {
   if(fs.existsSync(dirPath)) {
-    console.log('file exists: ', dirPath)
-    const g = require(dirPath)
-    return g
+    const d = require(dirPath)
+    return d
   }
-  return ''
+  return false
 }
 
 exports.getIfExists = getIfExists
@@ -73,3 +72,15 @@ function getElapsed(clock1) {
 
 exports.getElapsed = getElapsed
 
+//
+function removeObjAttr(data, attrToRemove = []) {
+  const keys = Object.keys(data)
+  attrToRemove.forEach(e => {
+    if(keys.indexOf(e) > -1) {
+      delete data[e]
+    }
+  })
+  return data
+}
+
+exports.removeObjAttr = removeObjAttr

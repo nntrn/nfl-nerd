@@ -7,12 +7,7 @@ const { createAndWrite } = require('../src/utils')
 function getAllDirectoryFiles(dirPath) {
   return fs.readdirSync(dirPath)
     .map(e => [dirPath, e].join('/'))
-    .map(e => {
-      if(fs.statSync(e).isDirectory()) {
-        return getAllDirectoryFiles(e)
-      }
-      return e
-    })
+    .map(e => fs.statSync(e).isDirectory() ? getAllDirectoryFiles(e) : e)
     .flat()
 }
 
@@ -67,5 +62,4 @@ module.exports = {
   extend,
   wrapInObject,
   getRelative,
-
 }

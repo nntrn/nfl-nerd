@@ -22,7 +22,6 @@ module.exports = {
     'computed-property-spacing': ['error', 'never'],
     'eol-last': ['error', 'always'],
     'indent': [2, 2, { ignoredNodes: ['TemplateLiteral *']}],
-
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
     'keyword-spacing': ['error', { overrides: {
       if: { after: false },
@@ -53,7 +52,7 @@ module.exports = {
     'quotes': ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
     'quote-props': ['error', 'consistent-as-needed'],
     'semi-spacing': ['error', { before: false, after: true }],
-    'semi-style': ['error', 'last'],
+    'semi-style': ['error', 'first'],
     'semi': ['error', 'never'],
     'space-before-blocks': 'error',
     'space-before-function-paren': ['error', { anonymous: 'always', named: 'never', asyncArrow: 'always' }],

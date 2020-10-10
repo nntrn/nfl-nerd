@@ -1,37 +1,43 @@
 const fetch = require('node-fetch')
 const config = require('../config')
-const { createAndWrite, getIfExists } = require('./utils')
+const { createAndWrite, removeObjAttr, existsSync } = require('./utils')
 
 const BASE_URL = `https://cdn.espn.com/core/nfl/standings?xhr=1`
 
-async function getTeams() {
+function getTeamData(dat) {
+  return dat.content.standings.groups
+    .map(group => group.groups.map(g => g.standings.entries
+      .map(entry => {
+        const { logos, link, uid, isActive, seed, ...rest } = entry.team
+        return {
+          id         : +rest.id,
+          group      : g.name,
+          conference : group.name,
+          ...rest,
+          link       : `${BASE_URL}&id=${rest.id}`,
+        }
+      })))
+    .flat(2)
+}
 
-  const cache = getIfExists(`${config.cache}/teams.json`)
+async function getTeams(useCache = true, cb = getTeamData) {
+  const cachePath = `${config.cache}/teams.json`
 
-  if(cache !== '') {
-    return cache
+  if(useCache && existsSync(cachePath)) {
+    console.log('getting teams.json from', cachePath)
+    return cb(require(cachePath))
   }
-
-  const teamsData = await fetch(BASE_URL)
+  console.log('fetching teams.json')
+  return fetch(BASE_URL)
     .then((resp) => resp.json())
-    .then(dat =>
-      dat.content.standings.groups
-        .map(e => e.groups.map(g => g.standings.entries
-          .map(en => {
-            const { logos, ...rest } = en.team
-            return {
-              ...rest,
-              id    : +rest.id,
-              group : g.name,
-              link  : `${BASE_URL}&id=${rest.id}`,
-            }
-          }))
-          .flat())
-        .flat()
-    )
+    .then(a => removeObjAttr(a, config.removeBeforeSave.all))
+    .then(b => {
+      createAndWrite(cachePath, JSON.stringify(b))
+      return b
+    })
+    .then(dat => cb(dat))
+    .catch(err => console.error(err))
 
-  createAndWrite(`${config.cache}/teams.json`, JSON.stringify(teamsData))
-  return teamsData
 }
 
 module.exports.getTeams = getTeams
