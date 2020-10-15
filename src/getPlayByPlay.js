@@ -1,11 +1,13 @@
 const fetch = require('node-fetch')
-
 const config = require('../config')
-const { getMe, flattenObjectCamel, createAndWrite, existsSync } = require('./utils')
+
+const { getMe, flattenObjectCamel, createAndWrite, existsSync, removeWithoutMutate } = require('./utils')
+
+const logger = config.logger('pbp')
 
 function getPlays(drives) {
-  const awayTeam = getMe('boxscore.teams.team', drives)[0]
-  const homeTeam = getMe('boxscore.teams.team', drives)[1]
+
+  const [awayTeam, homeTeam] = getMe('boxscore.teams.team', drives)
 
   const firstScoringPlay = getMe('scoringPlays.id', drives)[0]
   let firstTDId
@@ -16,6 +18,9 @@ function getPlays(drives) {
       break
     }
   }
+
+  const winprobability = getMe('winprobability', drives)
+
   return drives.drives.previous
     .map(e => e.plays.map(play => ({
       playId  : '#',
@@ -26,6 +31,7 @@ function getPlays(drives) {
 
       ...flattenObjectCamel({
         drive: {
+          ...e,
           team        : e.team.abbreviation,
           scoringPlay : e.isScore,
           result      : e.result
@@ -34,33 +40,48 @@ function getPlays(drives) {
           TD          : play.id === firstTDId ? true : false,
           scoringPlay : play.id === firstScoringPlay ? true : false,
         },
-        play: play
+        play           : play,
+        winProbability : winprobability.filter(w => w.playId === play.id)[0]
       }),
     })))
     .flat()
 }
 
 async function getPlayByPlay(gameId, cb = getPlays) {
-  // look for local summary
 
-  const localFile = `${config.cache}/summary/drives/${gameId}.json`
+  const localFile = `${config.cache}/summary/${gameId}.json`
 
   if(existsSync(localFile)) {
-    console.log('reading local ', gameId)
+    logger.log('info', 'local file exists', { path: localFile })
     return cb(require(localFile))
   }
 
-  // fetch from espn if not stored locally
-  return fetch(`${config.espn.summary}?event=${gameId}`)
-    .then((resp) => resp.json())
-    .then((drives) => {
-      // only write to local if game is finished
-      console.log('fetched', gameId)
-      if(getMe('header.competitions.playByPlaySource', drives)[0] === 'full') {
-        console.log('saved local summary of ' + gameId)
-        createAndWrite(localFile, JSON.stringify(drives))
+  const fetchURL = `${config.espn.summary}?event=${gameId}`
+
+  return fetch(fetchURL)
+
+    .then((response) => {
+      if(response.ok) {
+        logger.log('info', 'response is ok', { path: fetchURL, res: response })
+        return response.json()
+      } else {
+
+        logger.log('error', 'Something went wrong', { path: fetchURL, res: response })
+
       }
-      return cb(drives)
+    })
+    .then((drives) => {
+      const newDrives = removeWithoutMutate(drives, config.removeBeforeSave.summary)
+      logger.log('info', `Fetched: ${fetchURL}`, { gameId: gameId })
+      if(getMe('header.competitions.playByPlaySource', drives)[0] === 'full') {
+        logger.log('info', `Saved local file: ${localFile}`, { gameId: gameId })
+        createAndWrite(localFile, JSON.stringify(newDrives))
+      }
+      return cb(newDrives)
+    }).catch((error) => {
+
+      logger.log('error', error, { path: fetchURL })
+
     })
 
 }

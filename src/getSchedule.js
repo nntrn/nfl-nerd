@@ -2,9 +2,11 @@ const fetch = require('node-fetch')
 const config = require('../config')
 const CURRENT_YEAR = new Date().getFullYear()
 const REG_SEASON_WEEKS = 17
-const BASE_URL = 'https://cdn.espn.com/core/nfl/'
+const BASE_URL = 'https://cdn.espn.com/core/nfl'
 
-const { getMe, createAndWrite, existsSync } = require('./utils')
+const { getMe, createAndWritePromise, existsSync } = require('./utils')
+
+const createAndWrite = createAndWritePromise
 
 function getScheduleObj(data) {
   const obj = Object.values(data.content.schedule)
@@ -33,11 +35,12 @@ function getScheduleObj(data) {
             total     : linescores[1].map((l, li) => l + linescores[0][li]).join()
           },
           api: {
-            schedule   : this.fetchUrl,
-            game       : `${BASE_URL}game?xhr=1&gameId=${g.id}`,
+            // schedule   : this.fetchUrl,
+            game       : `${BASE_URL}/game?xhr=1&gameId=${g.id}`,
             summary    : `${config.espn.summary}?event=${g.id}`,
-            playbyplay : `${BASE_URL}playbyplay?xhr=1&gameId=${g.id}`,
-            boxscore   : `${BASE_URL}boxscore?xhr=1&gameId=${g.id}`,
+            playbyplay : `${BASE_URL}/playbyplay?xhr=1&gameId=${g.id}`,
+            boxscore   : `${BASE_URL}/boxscore?xhr=1&gameId=${g.id}`,
+
           }
         }
 
@@ -46,33 +49,34 @@ function getScheduleObj(data) {
   return obj.flat()
 }
 
-async function getSchedule(year = CURRENT_YEAR, getScheduleCb = getScheduleObj) {
+async function getSchedule(year = CURRENT_YEAR, getScheduleCb = getScheduleObj, getCache = false) {
   let promises = []
 
   for(var wk = 0; wk < REG_SEASON_WEEKS; wk++) {
-    var WEEK = (wk + 1)
-    let fetchUrl = `${BASE_URL}schedule?xhr=1&year=${year}&week=${WEEK}`
+    var WEEK = wk + 1
+    let fetchUrl = `${BASE_URL}/schedule?xhr=1&year=${year}&week=${WEEK}`
     const localFile = `${config.cache}/schedule/${year}/week-${WEEK}.json`
 
-    if(existsSync(localFile)) {
+    if(getCache && existsSync(localFile)) {
       console.log('reading local file from:', localFile)
       return getScheduleCb(require(localFile))
     }
 
-    promises.push(fetch(fetchUrl)
-      .then((resp) => resp.json())
-      .then((res) => {
+    promises.push(
+      fetch(fetchUrl)
+        .then((resp) => resp.json())
+        .then((res) => {
 
-        const contentDefaults = getMe('content.defaults', res)
+          const contentDefaults = getMe('content.defaults', res)
 
-        if(year < contentDefaults.year || (year <= contentDefaults.year && WEEK > contentDefaults.WEEK)) {
-          console.log('saved local summary of schedule', [year, WEEK])
-          createAndWrite(localFile, JSON.stringify(res))
-        }
+          if(year < contentDefaults.year || (year === contentDefaults.year && WEEK < contentDefaults.WEEK)) {
+            console.log('saved local summary of schedule', localFile)
+            createAndWrite(localFile, JSON.stringify(res))
+          }
 
-        return getScheduleCb(res)
-      })
-      .catch(err => console.error(err))
+          return getScheduleCb(res)
+        })
+        .catch(err => console.error(err))
     )
   }
 

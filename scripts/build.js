@@ -6,14 +6,18 @@ const outputFolder = `${config.dirname}/data`
 const CURRENT_YEAR = +(new Date().getFullYear())
 
 const last3Years = [
-  CURRENT_YEAR,
-  // CURRENT_YEAR - 1, CURRENT_YEAR - 2
+  // CURRENT_YEAR,
+  // CURRENT_YEAR - 1,
+  // CURRENT_YEAR - 2
+  2019
 ]
 
 ;(async function () {
 
   const teams = await nflnerd.getTeams()
-  const teamAbbr = teams.map(e => e.abbreviation)
+  const teamAbbr = await teams.map(e => e.abbreviation)
+
+  createAndWrite(`${outputFolder}/teams.json`, JSON.stringify(teams, null, 2))
 
   teamAbbr.forEach(team => {
     last3Years.forEach(year => {
@@ -38,12 +42,17 @@ const last3Years = [
           const allPbp = await Promise.all(promises)
 
           createAndWrite(`${outputFolder}/pbp/${year}/${team}.json`,
+
             JSON.stringify({
               date: new Date().toLocaleString(),
               team: team,
-              ids: finishedIDs,
+              finishedGameIds: finishedIDs,
+              attrs: Object.keys(allPbp.flat()[0]),
               data: allPbp.flat()
             }, null, 2))
+
+        }).catch((error) => {
+          console.log(error)
         })
 
     }) })
