@@ -4,7 +4,7 @@ const CURRENT_YEAR = new Date().getFullYear()
 const REG_SEASON_WEEKS = 17
 const BASE_URL = 'https://cdn.espn.com/core/nfl'
 
-const { getMe, createAndWritePromise, existsSync } = require('./utils')
+const { objectPicker, createAndWritePromise, existsSync } = require('./utils')
 
 const createAndWrite = createAndWritePromise
 
@@ -67,7 +67,7 @@ async function getSchedule(year = CURRENT_YEAR, getScheduleCb = getScheduleObj, 
         .then((resp) => resp.json())
         .then((res) => {
 
-          const contentDefaults = getMe('content.defaults', res)
+          const contentDefaults = objectPicker('content.defaults', res)
 
           if(year < contentDefaults.year || (year === contentDefaults.year && WEEK < contentDefaults.WEEK)) {
             console.log('saved local summary of schedule', localFile)

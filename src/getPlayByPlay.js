@@ -1,15 +1,15 @@
 const fetch = require('node-fetch')
 const config = require('../config')
 
-const { getMe, flattenObjectCamel, createAndWrite, existsSync, removeWithoutMutate } = require('./utils')
+const { objectPicker, flattenObjectCamel, createAndWrite, existsSync, removeWithoutMutate } = require('./utils')
 
 const logger = config.logger('pbp')
 
 function getPlays(drives) {
 
-  const [awayTeam, homeTeam] = getMe('boxscore.teams.team', drives)
+  const [awayTeam, homeTeam] = objectPicker('boxscore.teams.team', drives)
 
-  const firstScoringPlay = getMe('scoringPlays.id', drives)[0]
+  const firstScoringPlay = objectPicker('scoringPlays.id', drives)[0]
   let firstTDId
 
   for(var play of drives.scoringPlays) {
@@ -19,7 +19,7 @@ function getPlays(drives) {
     }
   }
 
-  const winprobability = getMe('winprobability', drives)
+  const winprobability = objectPicker('winprobability', drives)
 
   return drives.drives.previous
     .map(e => e.plays.map(play => ({
@@ -59,7 +59,6 @@ async function getPlayByPlay(gameId, cb = getPlays) {
   const fetchURL = `${config.espn.summary}?event=${gameId}`
 
   return fetch(fetchURL)
-
     .then((response) => {
       if(response.ok) {
         logger.log('info', 'response is ok', { path: fetchURL, res: response })
@@ -73,7 +72,7 @@ async function getPlayByPlay(gameId, cb = getPlays) {
     .then((drives) => {
       const newDrives = removeWithoutMutate(drives, config.removeBeforeSave.summary)
       logger.log('info', `Fetched: ${fetchURL}`, { gameId: gameId })
-      if(getMe('header.competitions.playByPlaySource', drives)[0] === 'full') {
+      if(objectPicker('header.competitions.playByPlaySource', drives)[0] === 'full') {
         logger.log('info', `Saved local file: ${localFile}`, { gameId: gameId })
         createAndWrite(localFile, JSON.stringify(newDrives))
       }
