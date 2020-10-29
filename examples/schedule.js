@@ -13,5 +13,5 @@ console.log(schedule2020)
 
 Schedule.getGames()
   .then((games) => {
-    fs.writeFileSync('./out/games-2020.json', JSON.stringify(games, null, 2))
+    fs.writeFileSync('./examples/games-2020.json', JSON.stringify(games, null, 2))
   })
