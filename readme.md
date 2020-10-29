@@ -7,9 +7,7 @@ an api for scraping nfl games
 
 for now, look in `examples/` for api usage
 
-* getSchedule
-* getPlayByPlay
-* getTeams
+
 
 
 
