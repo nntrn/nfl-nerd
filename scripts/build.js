@@ -6,10 +6,10 @@ const outputFolder = `${config.dirname}/data`
 const CURRENT_YEAR = +(new Date().getFullYear())
 
 const last3Years = [
-  // CURRENT_YEAR,
+  CURRENT_YEAR,
   // CURRENT_YEAR - 1,
   // CURRENT_YEAR - 2
-  2019
+  // 2019
 ]
 
 ;(async function () {

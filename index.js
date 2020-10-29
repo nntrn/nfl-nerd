@@ -1,9 +1,5 @@
-const { getPlayByPlay } = require('./src/getPlayByPlay')
-const { getSchedule } = require('./src/getSchedule')
-const { getTeams } = require('./src/getTeams')
+const nflnerd = require('./lib/nflnerd')
 
-module.exports = {
-  getPlayByPlay: getPlayByPlay,
-  getSchedule: getSchedule,
-  getTeams: getTeams,
-}
+module.exports.nflnerd = nflnerd
+
+module.exports = require('./lib')
