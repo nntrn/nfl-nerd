@@ -1,7 +1,9 @@
+// run `node examples/team-pbps` in CLI to get output
+
 const papaparse = require('papaparse')
 const nflnerd = require('../lib')
-
 const schedule = require('../games/season2020')
+
 const { createAndWrite, dateValue, flattenObjectCamel } = require('../src/utils.js')
 
 function getGames(team) {
@@ -19,38 +21,34 @@ function getGameIds(team) {
   return getGames(team)
 }
 
-const teams = ['ATL', 'CAR']
+const teams = ['DAL', 'PHI']
 
 nflnerd
-  .getAllPlaysByPlays(getGameIds(teams))
+  .getPlayByPlays(getGameIds(teams))
   .then(data => {
     const output = data.map(e => flattenObjectCamel(e))
     createAndWrite(
-      `./out/${teams.join('-')}-10-29-${new Date().getMinutes()}.json`,
+      `./out/pbps-${teams.join('-')}.json`,
       JSON.stringify(output, null, 2)
     )
     return output.map(o => {
       const [ateam, hteam] = o.title.split(' vs. ')
 
-      var ts = o.homeScore
-      var ots = o.awayScore
+      var ts = o.homeScore, ots = o.awayScore
 
       if(teams.includes(ateam)) {
         ts = o.awayScore
         ots = o.homeScore
       }
-
       return {
         ...o,
         isTarget: teams.includes(o.driveTeam),
         targetScore: ts,
         otherTeam: ots
       }
-
     })
   })
   .then(data2 => {
-
     const csvOutput = papaparse.unparse(data2, {
       quotes: false,
       quoteChar: '"',
@@ -63,8 +61,8 @@ nflnerd
     })
 
     createAndWrite(
-        `./out/${teams.join('-')}-10-29.csv`,
-        csvOutput
+      `./out/pbp-${teams.join('-')}.csv`,
+      csvOutput
     )
   })
 
