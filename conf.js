@@ -17,8 +17,6 @@ module.exports = {
     destination: './docs/',
     recurse: true,
     private: true,
-
-    template: './node_modules/toast-jsdoc',
     readme: './readme.md'
 
   },
