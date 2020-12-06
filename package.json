@@ -1,0 +1,34 @@
+{
+  "name": "nfl-nerd",
+  "version": "1.0.2",
+  "description": "espn data fetcher / web scraper for nfl player prop bets",
+  "repository": "github:nntrn/nfl-nerd",
+  "main": "index.js",
+  "scripts": {
+    "create:roster": "node scripts/create-roster-data",
+    "get:pbp": "node scripts/cli-team-pbps"
+  },
+  "keywords": [
+    "nfl",
+    "espn",
+    "player props",
+    "first TD",
+    "web scrape",
+    "fetch",
+    "betting"
+  ],
+  "author": "annie tran (https://github.com/nntrn)",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.0",
+    "commander": "^6.2.0",
+    "encoding": "^0.1.13",
+    "knex": "^0.21.12",
+    "node-fetch": "^2.6.1",
+    "papaparse": "^5.3.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
