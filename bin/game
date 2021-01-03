@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+const { getters, utils } = require('../nflnerd')
+
+const { getAllGameRelated } = getters
+const { createAndWrite, parseArgs } = utils
+
+function run(args) {
+  debugger
+  console.log(args)
+  if(args.game) {
+    debugger
+    getAllGameRelated(args.game)
+      .then(res_2 => createAndWrite(`${args.game}.json`, JSON.stringify(res_2)))
+      .catch(err => console.error(err))
+  } else {
+    console.log('need game id')
+  }
+
+}
+
+run(parseArgs(process.argv.slice(2)))

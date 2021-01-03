@@ -12,7 +12,7 @@ const {
 class Request {
   constructor(name = 'request') {
     this.name = name
-    this.outDir = '.espncache'
+    this.outDir = '__data__'
   }
 
   setName(name) {
@@ -28,7 +28,7 @@ class Request {
     const localPath = this.resolveCachePath(localFile)
     return new Promise((resolve, reject) => {
       if(localFile && existsSync(localPath)) {
-        console.log('reading from local: ', localPath)
+        console.log('reading from local: ', path.relative(process.cwd(), localPath))
         loadJSON(localPath)
           .then(data => dataCleanup(data))
           .then(data => resolve(data))

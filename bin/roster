@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+node ./scripts/update-roster >> logs/roster
+diffv=$(git diff --stat --exit-code ./data/roster.js)
+
+if [ -z "$diffv" ]
+then
+    # output is empty - success - leave the loop:
+    break
+else
+    echo $diffv
+    git add ./data/roster.js
+    git commit -m "Update roster"
+fi

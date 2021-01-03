@@ -1,6 +1,13 @@
+
 const fs = require('fs')
 const path = require('path')
+const papaparse = require('papaparse')
 
+const jsParser = require('./helpers/jsParser')
+const cleanRef = require('./helpers/cleanRef')
+
+exports.jsParser = jsParser
+exports.cleanRef = cleanRef
 exports.createAndWrite = createAndWrite
 exports.dateValue = dateValue
 exports.deepExclude = deepExclude
@@ -19,24 +26,17 @@ exports.getNormalize = getNormalize
 exports.resolvePath = resolvePath
 exports.parseRefId = parseRefId
 exports.getCleanDate = getCleanDate
-exports.cleanRef = require('./helpers/cleanRef')
 exports.mapObjArrays = mapObjArrays
-
-exports.jsParser = require('./helpers/jsParser')
-exports.getCSVString = require('./helpers/csvString')
+exports.getCSVString = getCSVString
 exports.testDateIfCompleted = testDateIfCompleted
 exports.testDateIfFuture = testDateIfFuture
-
-exports.toMap = (() => {
-  const convert = obj => new Map(Object.keys(obj).map(key => [key, obj[key]]))
-  return obj => obj instanceof Map ? obj : convert(obj)
-})()
-
+exports.updateObjectTemplate = updateObjectTemplate
 exports.existsSync = fs.existsSync
+exports.deepUpdateObject = deepUpdateObject
 
-exports.isFunction = (e) => typeof e === 'function'
+exports.dataCleanup = dataCleanup
 
-exports.dataCleanup = function (obj) {
+function dataCleanup(obj) {
   const espnExcludeKeys = [
     'ads', 'analytics', 'defaults', 'DTCpackages', 'headshot', 'href',
     'image', 'link', 'links', 'logo', 'geoBroadcasts', 'uid', 'guid'
@@ -92,7 +92,7 @@ function flattenObject(obj) {
   return toReturn
 }
 
-function createAndWrite(dirPath = 'file.json', data) {
+function createAndWrite(dirPath = 'file.json', data = '') {
   fs.mkdir(path.dirname(dirPath), { recursive: true }, function () {
     if(typeof data === 'object') {
       fs.writeFileSync(dirPath, JSON.stringify(data))
@@ -147,7 +147,11 @@ function hash(key) {
 }
 
 function prettyJSON(obj) {
-  return JSON.stringify(obj)
+  var obj2 = obj
+  if(typeof obj !== 'object') {
+    obj2 = JSON.parse(obj2)
+  }
+  return JSON.stringify(obj2)
     .replace(/([\{\}\,:])/g, '$1 ')
     .replace(/ , /g, ',\n  ')
 }
@@ -167,7 +171,6 @@ function parseArgs(args) {
   if(args.join(' ').indexOf('--') < 0) {
     return args
   }
-
   let stdIn = args.join(' ').split('>')[0].split(' ')
   return Object.fromEntries(stdIn
     .join(' ')
@@ -204,4 +207,66 @@ function mapObjArrays(arr, id = 'id', item) {
     }
   })
   return objMap
+}
+
+// Update only values for keys matching initial object
+function updateObjectTemplate(obj/* ,*/) {
+  if(typeof obj !== 'object') { return obj }
+  for(let i = 0; i < arguments.length; i++) {
+    for(let prop in arguments[i]) {
+      const _obj = Object.assign({}, obj)
+      const value = arguments[i][prop]
+      if(Object.keys(_obj).includes(prop)) {
+        Object.assign(obj, {
+          [prop]: typeof obj[prop] === 'function' ?
+            obj[prop](value) : value
+        })
+      }
+    }
+  }
+  return obj
+}
+
+function deepUpdateObject(template, obj) {
+  let copy = { ...template }
+  for(let i in obj) {
+    if(Object.keys(template).includes(i)) {
+      copy[i] = obj[i]
+      if(obj[i] &&
+         typeof obj[i] === 'object' &&
+         typeof template[i] !== 'function'
+      ) {
+        // `ex1:{ key:'' }`  => objects with w/ keys
+        // `ex2:{}`          => empty objects
+        let temp = Object.keys(template[i]).length > 0 ?
+        /* 1*/ template[i] : /* 2*/ { ...template[i], ...obj[i] }
+        copy[i] = { ...template[i], ...deepUpdateObject(temp, obj[i]) }
+
+      } else if(typeof template[i] === 'function') {
+        copy[i] = template[i](obj[i])
+      }
+    }
+  }
+  return copy
+}
+
+function getCSVString(data, options = {}) {
+  const ppOptions = {
+    quotes         : false,
+    quoteChar      : '"',
+    escapeChar     : '"',
+    delimiter      : ',',
+    header         : true,
+    newline        : '\n',
+    skipEmptyLines : true,
+    columns        : null,
+    ...options
+  }
+  // traverse array and flatten each object
+  if(Array.isArray(data)) {
+    const data2 = data.map(e => flattenObject(e))
+    return papaparse.unparse(data2, ppOptions)
+  }
+
+  return papaparse.unparse(flattenObject(data), ppOptions)
 }

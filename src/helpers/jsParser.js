@@ -11,7 +11,6 @@ function jsParseObject(obj) {
 }
 
 function jsParser(arr) {
-
   return [
     '/* eslint-disable */',
     'module.exports = [',
@@ -19,6 +18,6 @@ function jsParser(arr) {
     ']',
     '',
   ].join('\n')
-
 }
+
 module.exports = jsParser

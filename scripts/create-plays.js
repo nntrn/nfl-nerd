@@ -1,20 +1,25 @@
-const getCompletedGames = require('../src/getters/getCompletedGames')
-const { createAndWrite, testDateIfCompleted, getCSVString } = require('../src/utils')
+const {
+  createAndWrite,
+  testDateIfCompleted,
+  getCSVString,
+  flattenObject
+} = require('../src/utils')
+
+const getPlayByPlays = require('../src/getters/getPlayByPlays')
 const events = require('../data/events')
 
-function init() {
+function getPlayCsv() {
   const pbps = events
     .filter(res => testDateIfCompleted(res.date))
-    .map(event => getCompletedGames(event))
+    .map(event => getPlayByPlays(event))
 
   return Promise.all(pbps)
-    .then(res => res.flat(2))
+    .then(res_1 => res_1.flat(2).map(e => flattenObject(e)))
     .then(json => {
-      const date = (new Date()).toISOString().split(':').slice(0, 2).join('_')
-      // createAndWrite(`./tmp/all-${date}.json`, json)
-      createAndWrite(`./tmp/plays-${date}.csv`, getCSVString(json))
+      // createAndWrite(`./tmp/plays-${(new Date()).toDateString()}.json`, JSON.stringify(json))
+      createAndWrite(`./tmp/plays-${(new Date()).toDateString()}.csv`, getCSVString(json))
     })
-
+    .catch(err => console.log('ERROR', err))
 }
 
-init()
+getPlayCsv()

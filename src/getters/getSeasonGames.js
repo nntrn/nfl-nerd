@@ -1,4 +1,4 @@
-const { api, _requests } = require('../../index')
+const { api, scheduleRequest } = require('../../index')
 const { getCurrentSeason } = require('../utils')
 
 function cb(req) {
@@ -11,9 +11,11 @@ function cb(req) {
   }))
 }
 
-module.exports = function getSeasonGames(year, callback = cb) {
-  const szn = year || getCurrentSeason()
+const tmpDate = (new Date()).toISOString().split('T')[0]
 
-  return _requests.schedule.getData(api.seasons(szn), `events/${szn}.json`, callback)
+module.exports = function getSeasonGames(
+  year = getCurrentSeason(), callback = cb) {
+  return scheduleRequest
+    .getData(api.seasons(year), `tmp/events/${tmpDate}/${year}.json`, callback)
 }
 

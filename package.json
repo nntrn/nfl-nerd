@@ -5,8 +5,9 @@
   "repository": "github:nntrn/nfl-nerd",
   "main": "index.js",
   "scripts": {
-    "create:roster": "node scripts/create-roster-data",
-    "get:pbp": "node scripts/cli-team-pbps"
+    "get-plays": "bin/plays >> logs/plays",
+    "update-roster": "bin/roster >> logs/roster",
+    "create-stats": "bin/stats-md"
   },
   "keywords": [
     "nfl",
@@ -20,13 +21,15 @@
   "author": "annie tran (https://github.com/nntrn)",
   "license": "MIT",
   "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@nntrn/datalib-extras": "^1.0.1",
+    "ascii-table": "^0.0.9",
     "async": "^3.2.0",
-    "commander": "^6.2.0",
+    "better-sqlite3": "^7.1.2",
     "encoding": "^0.1.13",
-    "knex": "^0.21.12",
     "node-fetch": "^2.6.1",
     "papaparse": "^5.3.0",
-    "sqlite3": "^5.0.0"
+    "quick-pivot": "^2.7.0"
   },
   "devDependencies": {
     "chai": "^4.2.0"

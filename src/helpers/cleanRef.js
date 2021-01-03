@@ -17,38 +17,44 @@
 // { team: '12', probability: '4012201171' }
 // ```
 
-function createSingularRefObj(e) {
-  let keys = e.split(/[^\w\d]/g).filter(Boolean)
-  let key = keys[0].replace(/ies$/, 'y').replace(/(?<!ie)s$/, '')
-  return { [key]: keys[1] }
-}
+const cleanRef = function (json) {
 
-function refClean(ref, key) {
-  if(ref.indexOf('/') < 0) {
-    return ref
+  function createSingularRefObj(e) {
+    let keys = e.split(/[^\w\d]/g).filter(Boolean)
+    let key = keys[0].replace(/ies$/, 'y').replace(/(?<!ie)s$/, '')
+    return { [key]: keys[1] }
   }
 
-  const newRef = ref.match(/(\w+)\/(\d+)[/?]?/g)
-    .map(e => createSingularRefObj(e))
-    .reduce((a, b) => Object.assign(a, b), {})
+  function refClean(ref, key) {
+    if(ref.indexOf('/') < 0) { return ref }
 
-  return newRef[key] ? newRef[key] : newRef
-}
+    const newRef = ref.match(/(\w+)\/(\d+)[/?]?/g)
+      .map(e => createSingularRefObj(e))
+      .reduce((a, b) => Object.assign(a, b), {})
 
-function deepReplaceRef(data) {
-  if(Array.isArray(data)) {
-    return data.map(e => deepReplaceRef(e))
+    return newRef[key] ? newRef[key] : newRef
   }
-  return Object.keys(data).reduce((object, key) => {
-    object[key] = typeof data[key] === 'object' ?
-      deepReplaceRef(data[key]) : data[key]
-    if(data[key] && Object.keys(data[key]).includes('$ref')) {
-      if(data[key].$ref.indexOf('/') > -1) {
-        object[key] = refClean(data[key].$ref, key)
-      }
+
+  function deepReplaceRef(data) {
+    if(Array.isArray(data)) {
+      return data.map(e => deepReplaceRef(e))
     }
-    return object
-  }, Array.isArray(data) ? [] : {})
-}
+    else {
+      return Object.keys(data).reduce((object, key) => {
+        object[key] = typeof data[key] === 'object' ?
+          deepReplaceRef(data[key]) : data[key]
 
-module.exports = deepReplaceRef
+        if(data[key] && Object.keys(data[key]).includes('$ref')) {
+          if(data[key].$ref.indexOf('/') > -1) {
+            object[key] = refClean(data[key].$ref, key)
+          }
+        }
+        return object
+      }, Array.isArray(data) ? [] : {})
+    }
+  }
+
+  return deepReplaceRef(json)
+
+}
+module.exports = cleanRef

@@ -1,4 +1,4 @@
-const { Request, api, teams } = require('..')
+const { Request, api } = require('..')
 
 function apiDateFmt(date) {
   return [

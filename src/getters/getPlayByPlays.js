@@ -1,96 +1,68 @@
 const teams = require('../teams')
-const teamRoster = require('../../data/roster')
-const getGameData = require('../game')
-const { mapObjArrays } = require('../utils')
+const getAllGameRelated = require('./getAllGameRelated')
+const getAthlete = require('./getAthlete')
+const { mapObjArrays, deepUpdateObject } = require('../utils')
+const defaultTemplate = require('../templates/playByPlays')
 
-const _roster = mapObjArrays(teamRoster, 'id', 'name')
-
-function getRosterName(id) {
-  return _roster.has(id) ? _roster.get(id) : id
+const defaultProbabilities = {
+  playId            : '',
+  awayWinPercentage : 0,
+  homeWinPercentage : 0,
+  field             : {
+    away : '',
+    home : ''
+  }
 }
 
-const fmtText1Line = (str) => str.split(/\r?\n/g).join(' ')
+async function getPlayByPlays(event) {
+  const { gameId, date } = event
+  const dt = (new Date(date))
 
-async function getGame() {
-
-  const gamePromises = [
-    [api.Game(gameId).plays, `${gameId}/plays.json`, callbacks.Plays],
-    [api.Game(gameId).probabilities, `${gameId}/probabilities.json`, callbacks.Probabilities],
-  ]
-
-  return _requests.game
-    .loadRequests(gamePromises)
-    .then(res_1 => res_1.reduce((a, b) => Object.assign(a, b), {}))
-    .catch(err => console.error(err))
-}
-
-async function getPlayByPlays(gameId) {
-  return getGameData(gameId)
+  return getAllGameRelated(gameId)
     .then(res => {
-      const { plays, probabilities } = res
-      const getProbabilities = mapObjArrays(probabilities, 'playId')
-      return plays.map(pl => ({ ...pl, ...getProbabilities.get(pl.playId) }))
+      const { plays = [], probabilities = []} = res
+      const prob = mapObjArrays(probabilities, 'playId')
+      return plays.map(play => ({
+        ...play,
+        ...(Object.keys(probabilities).length && prob.has(play.id) ?
+          prob.get(play.id) : defaultProbabilities),
+      }))
     })
     .then(response => response.map(res => {
-      const {
-        gameId = '', playId = '', field = {}, clock = '', statYardage = '',
-        awayWinPercentage = 0, homeWinPercentage = 0, type = '', shortText = '',
-        alternativeText = '', shortAlternativeText = '', scoreValue = 0,
-        awayScore = 0, homeScore = 0, period = 0, scoringPlay = '', team = '',
-        start = {}, end = {}, wallclock = '', participants = []
-      } = res
+      const { awayWinPercentage = 0, homeWinPercentage = 0 } = res
+      const driveTeam = teams.getTeam(res.team) || ''
+      const fieldIndex = Object.values(res.field).indexOf(driveTeam)
 
-      const driveTeam = teams.getTeam(team)
-      const fieldIndex = Object.values(field).indexOf(driveTeam)
+      const updated = deepUpdateObject(defaultTemplate, {
+        ...res,
+        name          : Object.values(res.field).join(' @ '),
+        date          : dt.toISOString().split('T')[0],
+        team          : driveTeam,
+        opp           : Object.values(res.field).filter(team => team !== driveTeam)[0],
+        field         : Object.keys(res.field)[fieldIndex],
+        curTeamWinPct : [awayWinPercentage, homeWinPercentage][fieldIndex],
+        oppTeamWinPct : [homeWinPercentage, awayWinPercentage][fieldIndex],
+        teamScore     : fieldIndex === 1 ? res.homeScore : res.awayScore,
+        oppScore      : fieldIndex === 1 ? res.awayScore : res.homeScore,
+        scoreValue    : (res.scoreValue === 6 && /Kick\)$/.test(res.shortText)) ?
+          res.scoreValue + 1 : res.scoreValue,
+        timeElapsed: res.period.number > 0 ?
+          ((res.period.number - 1) * 900) + (900 - res.clock.value) :
+          900 - res.clock.value,
+      })
 
       return {
-        gameId : gameId,
-        playId : JSON.stringify(playId),
-        type   : type.text,
-        name   : Object.values(field).join(' @ '),
-        text   : {
-          short            : fmtText1Line(shortText),
-          alternative      : fmtText1Line(alternativeText),
-          shortAlternative : fmtText1Line(shortAlternativeText)
-        },
-        awayScore   : awayScore,
-        homeScore   : homeScore,
-        scoringPlay : scoringPlay,
-        team        : driveTeam,
-        start       : start,
-        end         : end,
-        statYardage : statYardage,
-        scoreValue  : (scoreValue === 6 && /Kick\)$/.test(shortText)) ?
-          scoreValue + 1 : scoreValue,
-        clock      : clock.displayValue,
-        clockValue : clock.value,
-        wallclock  : wallclock,
-        period     : period.number,
-        wallclock  : wallclock,
-        elapsed    : period.number > 0 ?
-          ((period.number - 1) * 900) + (900 - clock.value) :
-          900 - clock.value,
-
-        opp               : Object.values(field).filter(s => s !== driveTeam)[0],
-        currentTeamWinPct : [awayWinPercentage, homeWinPercentage][fieldIndex],
-        field             : Object.keys(field)[fieldIndex],
-
+        ...updated,
         participants: {
-          rusher     : '',
-          scorer     : '',
-          receiver   : '',
-          passer     : '',
-          tackler    : '',
-          penalized  : '',
-          assistedBy : '',
-          ...participants
-            .map(p => ({ [p.type]: getRosterName(p.athlete) }))
+          scorer     : '', rusher     : '', receiver   : '', passer     : '',
+          tackler    : '', penalized  : '', assistedBy : '',
+          ...(res.participants || [])
+            .map(p => ({ [p.type]: getAthlete(p.athlete) }))
             .reduce((a, b) => Object.assign(a, b), {})
         }
       }
     }))
-    .then(res => res)
-    .catch(err => console.log('ERROR', err))
+    .catch(err => console.error('ERROR', err))
 }
 
 module.exports = getPlayByPlays

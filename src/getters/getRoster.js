@@ -1,4 +1,4 @@
-const { teams, _requests } = require('../../index')
+const { teams, teamsRequest } = require('../../index')
 const { Team } = require('../api')
 
 function cb(req) {
@@ -10,11 +10,11 @@ function getRoster(callback = cb) {
   teams.teams.forEach(team => {
     teamRequests.push([
       Team(team.teamId).roster,
-      `roster/${team.teamAbbr}.json`,
+      `tmp/${(new Date()).toISOString().split('T')[0]}/roster/${team.teamAbbr}.json`,
       callback.bind({ team: team.teamAbbr })
     ])
   })
-  return _requests.teams.loadRequests(teamRequests)
+  return teamsRequest.loadRequests(teamRequests)
 }
 
 module.exports = getRoster
