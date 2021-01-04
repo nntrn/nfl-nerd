@@ -33,8 +33,8 @@ exports.testDateIfFuture = testDateIfFuture
 exports.updateObjectTemplate = updateObjectTemplate
 exports.existsSync = fs.existsSync
 exports.deepUpdateObject = deepUpdateObject
-
 exports.dataCleanup = dataCleanup
+exports.groupBy = groupBy
 
 function dataCleanup(obj) {
   const espnExcludeKeys = [
@@ -262,11 +262,34 @@ function getCSVString(data, options = {}) {
     columns        : null,
     ...options
   }
-  // traverse array and flatten each object
-  if(Array.isArray(data)) {
-    const data2 = data.map(e => flattenObject(e))
+
+  var data2 = data
+  try {
+    // traverse array and flatten each object
+    if(Array.isArray(data2)) {
+      data2 = data2.map(e => flattenObject(e))
+    }
+  } catch (err) {
+    data2 = data
+  } finally {
     return papaparse.unparse(data2, ppOptions)
   }
 
-  return papaparse.unparse(flattenObject(data), ppOptions)
+}
+
+function groupBy(collection, property) {
+  const newCollection = {}
+
+  collection.forEach((item, index) => {
+    let key = item[property]
+    if(typeof key === 'string') {
+      key = key.toLowerCase()
+    }
+    if(!Object.prototype.hasOwnProperty.call(newCollection, key)) {
+      newCollection[key] = []
+    }
+    newCollection[key].push(item)
+  })
+
+  return newCollection
 }

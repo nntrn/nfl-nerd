@@ -1,17 +1,36 @@
 const path = require('path')
 const Connect = require('../src/connection')
-const { createAndWrite, getCSVString, json1L, parseArgs } = require('../src/utils')
+const { createAndWrite, getCSVString, prettyJSON, parseArgs, groupBy } = require('../src/utils')
 var AsciiTable = require('ascii-table')
 const dl = require('@nntrn/datalib-extras')
 const Pivot = require('quick-pivot')
 
-function makeAsciiTable(obj, config) {
+function makeAsciiTable(obj, config = {}) {
   var table = new AsciiTable()
   const { title = '' } = config
 
   table.setTitle(title).setHeading(...obj[0])
 
-  obj.slice(1,).filter(e => e[0] !== 'null').forEach(o => table.addRow(...o))
+  obj.slice(1,)
+    .filter(e => e[0] !== 'null')
+    .forEach(o => table.addRow(...o))
+  return [
+    obj.length > 25 && '<details>\n',
+    '```',
+    table.toString(),
+    '```',
+    obj.length > 25 && '\n</details>'
+  ].filter(Boolean).join('\n')
+}
+
+function makeAsciiTable2(obj, config = {}) {
+  var table = new AsciiTable()
+  const { title = '' } = config
+
+  table.setTitle(title).setHeading(Object.keys(obj[0]))
+
+  obj
+    .forEach(o => table.addRow(Object.values(o)))
   return ['```', table.toString(), '```'].join('\n')
 }
 
@@ -42,6 +61,8 @@ function run() {
   const todaysDate = (new Date()).toDateString()
   const teams = [...arguments]
 
+  var markdownText = []
+
   if(teams.length > 0) {
     const db = new Connect(path.resolve('tmp/nfldb.db'))
 
@@ -60,7 +81,6 @@ function run() {
             .map(e => e.trim()).join(', ')
             .split(' (')
             .slice(0, 1)
-
         }
       })
 
@@ -71,20 +91,36 @@ function run() {
         qtr: 'Q' + e.periodNumber,
       }))
 
-    createAndWrite(`tmp/${todaysDate}/${teams.join('-')}.csv`, getCSVString(dat))
-    createAndWrite(`public/allplays.csv`, getCSVString(playsDb))
-    createAndWrite(`public/getData.js`, [
-      '/* eslint-disable */',
-      'function getData(){',
-      `  return ${json1L(dat, null, 2)}`,
-      '}'
-    ].join('\n'))
+    const last2Min = dat
+      .filter(e => e.periodNumber === 2)
+      .filter(e => e.timeElapsed >= 1680)
+      .filter(e => e.scoringPlay === 'true')
+      .map(e => ({ team: e.team, date: e.date, type: e.typeAbbreviation, timeElapsed: e.timeElapsed, clock: e.clockDisplayValue }))
 
-    var markdownText = []
+    markdownText.push(`## score in last 2 min of 1H?`)
+    Object.entries(groupBy(last2Min, 'team')).forEach(g => markdownText.push(makeAsciiTable2(g[1])))
 
+    const first6min = dat
+      .filter(e => e.periodNumber === 1)
+      .filter(e => e.timeElapsed <= 60 * 6)
+      .filter(e => e.scoringPlay === 'true')
+      .map(e => ({ team: e.team, date: e.date, type: e.typeAbbreviation, timeElapsed: e.timeElapsed, clock: e.clockDisplayValue }))
+
+    markdownText.push(`\n\n## score in first 6 min of 1H?`)
+    Object.entries(groupBy(first6min, 'team')).forEach(g => markdownText.push(makeAsciiTable2(g[1])))
+
+    markdownText.push('\n\n')
     markdownText.push(`# ${teams.join(' & ')}`)
     markdownText.push(teams.map(t => `* [${t}](#${t.toLowerCase()})`).join('\n'))
     markdownText.push('\n---\n')
+
+    // createAndWrite(`public/allplays.csv`, getCSVString(playsDb))
+    createAndWrite(`public/getData.js`, [
+      '/* eslint-disable */',
+      'function getData(){',
+      `  return ${prettyJSON(playsDb, null, 2)}`,
+      '}'
+    ].join('\n'))
 
     teams.forEach(team => {
       const teamDat = dat
@@ -147,7 +183,7 @@ function run() {
             { title: team + ': ' + each.name })
         )
 
-        if(each.name === 'date') {
+        if(each.name === 'date' || each.name === 'qtr') {
           markdownText.push(
             makeAsciiTable(
               getPivot(
