@@ -35,7 +35,7 @@ const callbacks = {
 
 }
 
-async function getAllGameRelated(gameId) {
+function getAllGameRelated(gameId) {
 
   const { plays, probabilities, h2h, oddsConsensus, predictor } = api.Game(gameId)
 

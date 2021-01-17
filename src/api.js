@@ -50,8 +50,10 @@ module.exports = {
   athlete_splits   : (athleteId, props) => `${_web}/athletes/${athleteId}/splits?${qs.stringify(props)}`,
 
   leaders          : (props) => `${_web}/leaders?${qs.stringify(props)}`,
-  seasons          : (year) => `${_site}/scoreboard?limit=400&dates=${year}0801-${(+year) + 1}0301`,
+  seasons          : (year) => `${_site}/scoreboard?limit=400&dates=${year}0901-${(+year) + 1}0201`,
+  // seasonMapper
   scoreboard       : (...dates) => `${_site}/scoreboard?limit=400&dates=${dates.join('-')}`,
+  scoreboard2      : (dates) => `${_site}/scoreboard?limit=400&dates=${dates.join('-')}`,
   summary          : (gameId) => `${_site}/summary?event=${gameId}`,
   team             : (teamId) => `${_site}/teams${teamId ? `/${teamId}` : ''}`,
   teams            : (args) => `${_site}/teams${args ? '?' + qs.stringify(args) : ''}`,

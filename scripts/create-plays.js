@@ -1,25 +1,37 @@
+const { utils, getters } = require('../nflnerd')
+const { getPlayByPlays, getSeasonGames } = getters
+
 const {
   createAndWrite,
   testDateIfCompleted,
   getCSVString,
-  flattenObject
-} = require('../src/utils')
+  flattenObject,
+  getCurrentSeason,
+  parseArgs,
+  dateValue
+} = utils
 
-const getPlayByPlays = require('../src/getters/getPlayByPlays')
-const events = require('../data/events')
-
-function getPlayCsv() {
-  const pbps = events
-    .filter(res => testDateIfCompleted(res.date))
-    .map(event => getPlayByPlays(event))
-
-  return Promise.all(pbps)
-    .then(res_1 => res_1.flat(2).map(e => flattenObject(e)))
-    .then(json => {
-      // createAndWrite(`./tmp/plays-${(new Date()).toDateString()}.json`, JSON.stringify(json))
-      createAndWrite(`./tmp/plays-${(new Date()).toDateString()}.csv`, getCSVString(json))
-    })
-    .catch(err => console.log('ERROR', err))
+const argv = {
+  season: getCurrentSeason(),
+  ...parseArgs(process.argv.slice(2))
 }
 
-getPlayCsv()
+function createPlayByPlays(args) {
+  getSeasonGames(args.season)
+    .then(res => res.sort((a, b) => dateValue(a.date) - dateValue(b.date)))
+    .then(events => {
+      const pbps = events
+        .filter(res => testDateIfCompleted(res.date))
+        .map(event => getPlayByPlays(event))
+
+      return Promise.all(pbps)
+        .then(res_1 => res_1.flat(2).map(e => flattenObject(e)))
+        .then(json => createAndWrite(
+          `./tmp/${(new Date()).toDateString()}/${args.season}-plays.csv`,
+          getCSVString(json)))
+        .catch(err => console.error('ERROR', err))
+    })
+    .catch(err => console.error('ERROR', err))
+
+}
+createPlayByPlays(argv)

@@ -5,6 +5,14 @@ var AsciiTable = require('ascii-table')
 const dl = require('@nntrn/datalib-extras')
 const Pivot = require('quick-pivot')
 
+// **********************************************************
+const argv = parseArgs(process.argv.slice(2))
+
+if(argv.teams) {
+  run(...argv.teams)
+}
+// **********************************************************
+
 function makeAsciiTable(obj, config = {}) {
   var table = new AsciiTable()
   const { title = '' } = config
@@ -91,6 +99,11 @@ function run() {
         qtr: 'Q' + e.periodNumber,
       }))
 
+    markdownText.push('\n\n')
+    markdownText.push(`# Teams`)
+    markdownText.push(teams.map(t => `* [${t}](#${t.toLowerCase()})`).join('\n'))
+    markdownText.push('\n---\n')
+
     const last2Min = dat
       .filter(e => e.periodNumber === 2)
       .filter(e => e.timeElapsed >= 1680)
@@ -109,18 +122,13 @@ function run() {
     markdownText.push(`\n\n## score in first 6 min of 1H?`)
     Object.entries(groupBy(first6min, 'team')).forEach(g => markdownText.push(makeAsciiTable2(g[1])))
 
-    markdownText.push('\n\n')
-    markdownText.push(`# ${teams.join(' & ')}`)
-    markdownText.push(teams.map(t => `* [${t}](#${t.toLowerCase()})`).join('\n'))
-    markdownText.push('\n---\n')
-
-    // createAndWrite(`public/allplays.csv`, getCSVString(playsDb))
-    createAndWrite(`public/getData.js`, [
-      '/* eslint-disable */',
-      'function getData(){',
-      `  return ${prettyJSON(playsDb, null, 2)}`,
-      '}'
-    ].join('\n'))
+    // // createAndWrite(`public/allplays.csv`, getCSVString(playsDb))
+    // createAndWrite(`public/getData.js`, [
+    //   '/* eslint-disable */',
+    //   'function getData(){',
+    //   `  return ${prettyJSON(playsDb, null, 2)}`,
+    //   '}'
+    // ].join('\n'))
 
     teams.forEach(team => {
       const teamDat = dat
@@ -204,6 +212,16 @@ function run() {
               { title: `${team}: ${each.name} - MIN` })
           )
         }
+        if(each.name === 'participantsReceiver') {
+          markdownText.push(
+            makeAsciiTable(
+              getPivot(
+                teamDat.filter(e2 => e2.periodNumber > 0),
+                { row: [each.name, 'date'], cols: 'qtr', type: 'count' }
+              ),
+              { title: `${team}: ${each.name} - count` })
+          )
+        }
       })
       markdownText.push('\n')
     })
@@ -211,10 +229,4 @@ function run() {
   } else {
     throw Error('no teams specified')
   }
-}
-
-const argv = parseArgs(process.argv.slice(2))
-
-if(argv.teams) {
-  run(...argv.teams)
 }

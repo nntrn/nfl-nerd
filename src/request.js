@@ -40,7 +40,8 @@ class Request {
             .then(res => res.json())
             .then(data => dataCleanup(data))
             .then(data => createAndWrite(localPath, data))
-            .then(data => resolve(data))
+            .then(data => data.error || data.code ? reject(data) : resolve(data))
+            .catch(err => console.log(err))
         } catch (err) {
           console.log('error', err)
           reject(err)
@@ -63,3 +64,5 @@ class Request {
 }
 
 module.exports = Request
+
+// module.exports.Request = Request

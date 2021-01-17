@@ -14,11 +14,12 @@ This project:
 
 ```sh
 # Create markdown with stats
-bin/teams-markdown --teams WSH PHI
+bin/stats-md --teams WSH PHI
 
 # Update and commit roster changes ./data/roster
 bin/roster
 
 # Create csv with all play by plays
 bin/plays
+bin/plays --season 2019
 ```
