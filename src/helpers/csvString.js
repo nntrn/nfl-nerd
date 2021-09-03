@@ -2,14 +2,14 @@ const papaparse = require('papaparse')
 const { flattenObject } = require('../utils')
 
 const papaparseOptions = {
-  quotes         : false,
-  quoteChar      : '"',
-  escapeChar     : '"',
-  delimiter      : ',',
-  header         : true,
-  newline        : '\n',
-  skipEmptyLines : false,
-  columns        : null
+  quotes        : false,
+  quoteChar     : '"',
+  escapeChar    : '"',
+  delimiter     : ',',
+  header        : true,
+  newline       : '\n',
+  skipEmptyLines: false,
+  columns       : null
 }
 
 module.exports = function csvString(data) {

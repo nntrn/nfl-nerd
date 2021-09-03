@@ -6,11 +6,10 @@ module.exports = {
   teams,
   api,
   Request,
-
-  gameRequest: new Request('game'),
-  nflRequest: new Request('nfl'),
+  gameRequest    : new Request('game'),
+  nflRequest     : new Request('nfl'),
   scheduleRequest: new Request('schedule'),
-  statsRequest: new Request('stats'),
-  teamsRequest: new Request('teams'),
+  statsRequest   : new Request('stats'),
+  teamsRequest   : new Request('teams'),
 }
 

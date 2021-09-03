@@ -34,8 +34,8 @@ const teams = [
 ]
 
 module.exports = {
-  teams : teams,
-  all   : teams.map(e => e.teamAbbr),
+  teams: teams,
+  all  : teams.map(e => e.teamAbbr),
 
   getTeam(id) {
     return teams.filter(e => e.teamId === id).map(e => e.teamAbbr)[0]

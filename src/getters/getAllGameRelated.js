@@ -5,19 +5,19 @@ const callbacks = {
 
   Probabilities: (res) => ({
     probabilities: res.items.map(e => ({
-      playId            : parseRefId(e.$ref, 'probabilities'),
-      awayWinPercentage : e.awayWinPercentage,
-      homeWinPercentage : e.homeWinPercentage,
-      field             : {
-        away : teams.getTeam(parseRefId(e.awayTeam.$ref, 'teams')),
-        home : teams.getTeam(parseRefId(e.homeTeam.$ref, 'teams')),
+      playId           : parseRefId(e.$ref, 'probabilities'),
+      awayWinPercentage: e.awayWinPercentage,
+      homeWinPercentage: e.homeWinPercentage,
+      field            : {
+        away: teams.getTeam(parseRefId(e.awayTeam.$ref, 'teams')),
+        home: teams.getTeam(parseRefId(e.homeTeam.$ref, 'teams')),
       }
     })) }),
 
   Plays: (res) => ({
     plays: res.items.map(play => ({
-      gameId : parseRefId(play.$ref, 'events'),
-      playId : parseRefId(play.$ref, 'plays'),
+      gameId: parseRefId(play.$ref, 'events'),
+      playId: parseRefId(play.$ref, 'plays'),
       ...play
     })).map(e => cleanRef(e))
   }),

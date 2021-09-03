@@ -9,10 +9,10 @@ function init(mapper) {
     displayName = '',
     position = { abbreviation: '' },
     team = '' }) => ({
-    id: id,
-    name: displayName,
+    id      : id,
+    name    : displayName,
     position: position.abbreviation,
-    team: team
+    team    : team
   })
 
   getRoster().then(res => {

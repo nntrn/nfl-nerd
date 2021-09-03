@@ -5,12 +5,12 @@ const { mapObjArrays, deepUpdateObject } = require('../utils')
 const defaultTemplate = require('../templates/playByPlays')
 
 const defaultProbabilities = {
-  playId            : '',
-  awayWinPercentage : 0,
-  homeWinPercentage : 0,
-  field             : {
-    away : '',
-    home : ''
+  playId           : '',
+  awayWinPercentage: 0,
+  homeWinPercentage: 0,
+  field            : {
+    away: '',
+    home: ''
   }
 }
 
@@ -35,16 +35,16 @@ async function getPlayByPlays(event) {
 
       const updated = deepUpdateObject(defaultTemplate, {
         ...res,
-        name          : Object.values(res.field).join(' @ '),
-        date          : dt.toISOString().split('T')[0],
-        team          : driveTeam,
-        opp           : Object.values(res.field).filter(team => team !== driveTeam)[0],
-        field         : Object.keys(res.field)[fieldIndex],
-        curTeamWinPct : [awayWinPercentage, homeWinPercentage][fieldIndex],
-        oppTeamWinPct : [homeWinPercentage, awayWinPercentage][fieldIndex],
-        teamScore     : fieldIndex === 1 ? res.homeScore : res.awayScore,
-        oppScore      : fieldIndex === 1 ? res.awayScore : res.homeScore,
-        scoreValue    : (res.scoreValue === 6 && /Kick\)$/.test(res.shortText)) ?
+        name         : Object.values(res.field).join(' @ '),
+        date         : dt.toISOString().split('T')[0],
+        team         : driveTeam,
+        opp          : Object.values(res.field).filter(team => team !== driveTeam)[0],
+        field        : Object.keys(res.field)[fieldIndex],
+        curTeamWinPct: [awayWinPercentage, homeWinPercentage][fieldIndex],
+        oppTeamWinPct: [homeWinPercentage, awayWinPercentage][fieldIndex],
+        teamScore    : fieldIndex === 1 ? res.homeScore : res.awayScore,
+        oppScore     : fieldIndex === 1 ? res.awayScore : res.homeScore,
+        scoreValue   : (res.scoreValue === 6 && /Kick\)$/.test(res.shortText)) ?
           res.scoreValue + 1 : res.scoreValue,
         timeElapsed: res.period.number > 0 ?
           ((res.period.number - 1) * 900) + (900 - res.clock.value) :
@@ -54,8 +54,8 @@ async function getPlayByPlays(event) {
       return {
         ...updated,
         participants: {
-          scorer     : '', rusher     : '', receiver   : '', passer     : '',
-          tackler    : '', penalized  : '', assistedBy : '',
+          scorer    : '', rusher    : '', receiver  : '', passer    : '',
+          tackler   : '', penalized : '', assistedBy: '',
           ...(res.participants || [])
             .map(p => ({ [p.type]: getAthlete(p.athlete) }))
             .reduce((a, b) => Object.assign(a, b), {})

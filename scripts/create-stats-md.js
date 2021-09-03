@@ -72,7 +72,7 @@ function run() {
   var markdownText = []
 
   if(teams.length > 0) {
-    const db = new Connect(path.resolve('tmp/nfldb.db'))
+    const db = new Connect(path.resolve('nfldb.db'))
 
     const playsDb = db
       .getTable('plays')
@@ -122,15 +122,18 @@ function run() {
     markdownText.push(`\n\n## score in first 6 min of 1H?`)
     Object.entries(groupBy(first6min, 'team')).forEach(g => markdownText.push(makeAsciiTable2(g[1])))
 
-    // // createAndWrite(`public/allplays.csv`, getCSVString(playsDb))
-    // createAndWrite(`public/getData.js`, [
-    //   '/* eslint-disable */',
-    //   'function getData(){',
-    //   `  return ${prettyJSON(playsDb, null, 2)}`,
-    //   '}'
-    // ].join('\n'))
+    const getDataJs = [
+      '/* eslint-disable */',
+      'function getData(){',
+    `  return ${prettyJSON(playsDb, null, 2)}`,
+    '}'
+    ].join('\n')
+
+    createAndWrite(`public/allplays.csv`, getCSVString(playsDb))
+    createAndWrite(`public/getData.js`, getDataJs)
 
     teams.forEach(team => {
+
       const teamDat = dat
         .filter(e => e.team === team)
         .filter(Boolean)
@@ -150,7 +153,7 @@ function run() {
 
       const grouped = dl.groupby('participantsScorer')
         .execute(teamDat.filter(e => e.participantsScorer))
-        .map(e => ({ ...e, count: e.values.length,
+        .map(e => ({ ...e, count : e.values.length,
           values: e.values.map(v => [
             v.date,
             v.typeText,
