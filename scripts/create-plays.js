@@ -8,7 +8,8 @@ const {
   flattenObject,
   getCurrentSeason,
   parseArgs,
-  dateValue
+  dateValue,
+  getYMD
 } = utils
 
 const argv = {
@@ -24,14 +25,13 @@ function createPlayByPlays(args) {
         .filter(res => testDateIfCompleted(res.date))
         .map(event => getPlayByPlays(event))
 
+      // const csvFilePath = `./tmp/${getYMD()}/${args.season}-plays.csv`
       return Promise.all(pbps)
         .then(res_1 => res_1.flat(2).map(e => flattenObject(e)))
-        .then(json => createAndWrite(
-          `./tmp/${(new Date()).toDateString()}/${args.season}-plays.csv`,
-          getCSVString(json)))
+        .then(json => createAndWrite(`./tmp/${getYMD()}/${args.season}-plays.csv`, getCSVString(json)))
         .catch(err => console.error('ERROR', err))
     })
     .catch(err => console.error('ERROR', err))
-
 }
+console.log('testing')
 createPlayByPlays(argv)

@@ -1,4 +1,5 @@
 module.exports = [
+  { year: 2021, startDate: '2021-09-09', endDate: '2022-01-09' },
   { year: 2020, startDate: '2020-08-05', endDate: '2021-02-10' },
   { year: 2019, startDate: '2019-07-31', endDate: '2020-02-06' },
   { year: 2018, startDate: '2018-08-02', endDate: '2019-02-06' },

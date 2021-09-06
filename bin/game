@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const { getters, utils } = require('../nflnerd')
-
 const { getAllGameRelated } = getters
 const { createAndWrite, parseArgs } = utils
 

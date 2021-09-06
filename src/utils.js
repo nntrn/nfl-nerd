@@ -35,6 +35,11 @@ exports.existsSync = fs.existsSync
 exports.deepUpdateObject = deepUpdateObject
 exports.dataCleanup = dataCleanup
 exports.groupBy = groupBy
+exports.getYMD = getYMD
+
+function getYMD() {
+  return (new Date()).toISOString().split('T')[0]
+}
 
 function dataCleanup(obj) {
   const espnExcludeKeys = [
@@ -126,7 +131,7 @@ function resolvePath(fp) {
 }
 
 function getCurrentSeason() {
-  return (new Date()).getMonth() > 8 ?
+  return (new Date()).getMonth() > 7 ?
     new Date().getFullYear() :
     (new Date().getFullYear() - 1)
 }
@@ -252,14 +257,14 @@ function deepUpdateObject(template, obj) {
 
 function getCSVString(data, options = {}) {
   const ppOptions = {
-    quotes         : false,
-    quoteChar      : '"',
-    escapeChar     : '"',
-    delimiter      : ',',
-    header         : true,
-    newline        : '\n',
-    skipEmptyLines : true,
-    columns        : null,
+    quotes        : false,
+    quoteChar     : '"',
+    escapeChar    : '"',
+    delimiter     : ',',
+    header        : true,
+    newline       : '\n',
+    skipEmptyLines: true,
+    columns       : null,
     ...options
   }
 

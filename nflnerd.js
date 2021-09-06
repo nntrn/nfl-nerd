@@ -1,11 +1,11 @@
+const api = require('./src/api')
+const teams = require('./src/teams')
+const Request = require('./src/request')
+
 const getAllGameRelated = require('./src/getters/getAllGameRelated')
 const getAthlete = require('./src/getters/getAthlete')
 const getPlayByPlays = require('./src/getters/getPlayByPlays')
 const getSeasonGames = require('./src/getters/getSeasonGames')
-
-const api = require('./src/api')
-const teams = require('./src/teams')
-const Request = require('./src/request')
 
 const {
   jsParser,
@@ -34,12 +34,14 @@ const {
   testDateIfFuture,
   updateObjectTemplate,
   deepUpdateObject,
-  dataCleanup } = require('./src/utils')
+  dataCleanup,
+  getYMD
+} = require('./src/utils')
 
 module.exports = {
   api,
-  Request,
   teams,
+  Request,
 }
 module.exports.getters = {
   getAllGameRelated,
@@ -74,5 +76,6 @@ module.exports.utils = {
   testDateIfFuture,
   updateObjectTemplate,
   deepUpdateObject,
-  dataCleanup
+  dataCleanup,
+  getYMD
 }

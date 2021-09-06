@@ -1,14 +1,14 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 
-node ./scripts/update-roster >> logs/roster
+mkdir -p logs
+node ./scripts/update-roster "$@" | tee -a logs/roster
+
 diffv=$(git diff --stat --exit-code ./data/roster.js)
 
-if [ -z "$diffv" ]
-then
-    # output is empty - success - leave the loop:
-    break
+if [[ $diffv ]]; then
+  echo $diffv
+  git add ./data/roster.js
+  git commit -m "Update roster"
 else
-    echo $diffv
-    git add ./data/roster.js
-    git commit -m "Update roster"
+  echo "No changes to roster"
 fi

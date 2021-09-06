@@ -1,5 +1,6 @@
 const teamRoster = require('../../data/roster')
 const { mapObjArrays } = require('../utils')
+
 const _roster = mapObjArrays(teamRoster, 'id')
 
 function getAthlete(id) {
