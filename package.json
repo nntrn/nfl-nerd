@@ -3,11 +3,13 @@
   "version": "1.0.2",
   "description": "espn data fetcher / web scraper for nfl player prop bets",
   "repository": "github:nntrn/nfl-nerd",
+  "homepage": "https://nntrn.github.io/nfl-nerd/",
   "main": "index.js",
   "scripts": {
     "get-plays": "bin/plays",
     "update-roster": "bin/roster",
-    "create-stats": "bin/stats-md"
+    "create-stats": "bin/stats-md",
+    "deploy": "gh-pages -d public"
   },
   "keywords": [
     "nfl",
@@ -21,7 +23,6 @@
   "author": "annie tran (https://github.com/nntrn)",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.5.0",
     "@nntrn/datalib-extras": "^1.0.1",
     "ascii-table": "^0.0.9",
     "async": "^3.2.1",
@@ -32,6 +33,6 @@
     "quick-pivot": "^2.7.0"
   },
   "devDependencies": {
-    "chai": "^4.3.4"
+    "gh-pages": "^3.2.3"
   }
 }
